@@ -1,0 +1,3 @@
+.all-home-components-heading-h1 {
+  @apply text-center 2xl:text-[38.06px] xl:text-[38px] lg:text-[30px]  sm:text-[25px] text-[20px]  z-10 text-[#4D4D4D] font-[600];
+}

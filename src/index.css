@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* body::-webkit-scrollbar {
+  display: none;
+} */
+.btn {
+  @apply text-[#FFFFFF] md:text-[18px] text-[15px]   bg-[#FD0808] font-[700] rounded-tl-[20px] rounded-br-[20px] rounded-tr-[3px] rounded-bl-[3px] flex justify-center items-center;
+}
+
+.hideScrollbar::-webkit-scrollbar {
+  display: none;
+}

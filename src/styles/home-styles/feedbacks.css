@@ -1,0 +1,4 @@
+.feedback-card {
+  box-shadow: 2px 51px 30px -2px rgba(0, 0, 0, 0.182);
+  @apply bg-[#ffffff] rounded-[5px] md:min-w-[360px] md:h-[452px] py-[23px]  p-[16px] mx-[19px];
+}

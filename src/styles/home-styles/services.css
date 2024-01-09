@@ -1,0 +1,38 @@
+ 
+
+.services-left-side-div {
+  @apply w-[60%] h-full ml-[39px] relative;
+}
+.services-box {
+  @apply lg:w-[465.73px] w-[100%] h-[442.93px] rounded-[10px] border-[0.8px] border-[#DDDDDD] bg-white mt-[50px] BoxShadow relative;
+}
+.services-right-side-div{
+  @apply 2xl:w-[40%] w-[70%] xl:mr-[39px] 2xl:mt-0  2xl:ml-0 lg:ml-[250px] ml-[50px] mt-[140px];
+}
+
+
+
+
+.BoxShadow {
+  box-shadow: 1px 3px 8px rgba(125, 123, 123, 0.301);
+}
+
+.Analysis,
+.Documentation,
+.VideoCall {
+  box-shadow: 1px 2px 10px #b09cb967;
+  @apply lg:w-[225.76px] md:w-[170px] sm:w-[160px] w-[130px] lg:h-[93.4px] h-[40px] rounded-[10px] flex justify-start items-center object-cover pl-[10px] gap-[10px] absolute bg-white;
+}
+.Analysis {
+  @apply lg:top-0 top-[30px] md:left-[440px] left-[90%];
+}
+.Documentation {
+  @apply lg:top-[335px] top-[355px] lg:left-[596px] md:left-[520px] sm:left-[100%] left-[90%] z-30;
+}
+.VideoCall {
+  @apply top-[540px] left-[20px];
+}
+
+.bullet-end {
+  @apply absolute w-[10px] h-[10px] border-2 border-[#5f94fc] rounded-full bg-[#96b9fe5f];
+}

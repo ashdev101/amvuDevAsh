@@ -1,0 +1,22 @@
+.our-vision-gradients-square1,
+.our-vision-gradients-square2,
+.our-vision-gradients-square3,
+.our-vision-gradients-square4 {
+  background-image: linear-gradient(#e0aaad, #faedee);
+  @apply w-[55.14px] h-[55.56px] rounded-[24px] p-[10px] gap-[8px] absolute md:flex hidden;
+}
+
+.our-vision-gradients-square1 {
+  @apply top-[110px] xl:left-[139px]  lg:left-[80px] md:left-[44px] sm:left-[20px];
+}
+
+.our-vision-gradients-square2 {
+  @apply top-[110px] xl:right-[139px]  lg:right-[80px] md:right-[45px] sm:right-[20px];
+}
+.our-vision-gradients-square3 {
+  @apply top-[386px] xl:left-[114px]  lg:left-[80px] md:left-[50px] sm:left-[20px];
+}
+.our-vision-gradients-square4 {
+  @apply top-[430px]  xl:right-[139px]  lg:right-[80px] md:right-[60px] sm:right-[20px];
+  background-image: linear-gradient(#67cae6, #0861a4);
+}
