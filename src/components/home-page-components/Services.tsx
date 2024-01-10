@@ -4,7 +4,7 @@ import "../../styles/home-styles/services.css"
 import Button from "../Button"
 const Services = () => { 
     return (
-        <div className="w-full lg:mt-[160px] mt-[100px]">
+        <div className="w-full lg:mt-[100px] mt-[80px]">
             <h2 className="all-home-components-heading-h1">Services</h2>
 
             <div className="w-full flex 2xl:flex-row flex-col  h-[657px] mt-[40px]">
