@@ -1,13 +1,13 @@
 .heading-H1 {
-  @apply font-[700] text-[#333333] absolute 2xl:top-[100px] xl:top-[80px] lg:top-[70px] md:top-[60px] sm:top-[50px] top-[40px] 2xl:left-[107px] xl:left-[100px] lg:left-[90px] md:left-[70px] sm:left-[40px] left-[31px] 2xl:text-[91px] xl:text-[90px] lg:text-[80px] md:text-[50px] sm:text-[30px] text-[22px] 2xl:leading-[113.3px] xl:leading-[100.3px] lg:leading-[80.3px] md:leading-[50.3px] sm:leading-[35.3px] leading-[27.39px];
+  @apply font-[700] text-[#333333] absolute 2xl:top-[100px] xl:top-[80px] lg:top-[70px] md:top-[60px] sm:top-[50px] top-[40px] 2xl:left-[107px]  sm:left-[40px] left-[31px] 2xl:text-[91px] xl:text-[90px] lg:text-[80px] md:text-[50px] sm:text-[30px] text-[22px] 2xl:leading-[113.3px] xl:leading-[100.3px] lg:leading-[80.3px] md:leading-[50.3px] sm:leading-[35.3px] leading-[27.39px];
 }
 
 .heading-description-p {
-  @apply font-[400] text-justify 2xl:w-[482px] xl:w-[400px] lg:w-[350px] md:w-[300px] sm:w-[230px] w-[155px]  absolute 2xl:top-[350px] xl:top-[300px] lg:top-[250px] md:top-[200px] sm:top-[150px] top-[100px] 2xl:left-[107px] xl:left-[100px] lg:left-[90px] md:left-[70px] sm:left-[40px] left-[31px] 2xl:text-[16px] xl:text-[15px] lg:text-[14px] md:text-[13px] sm:text-[10px] text-[8px];
+  @apply font-[400] text-justify 2xl:w-[482px] xl:w-[400px] lg:w-[350px] md:w-[300px] sm:w-[230px] w-[155px]  absolute 2xl:top-[350px] xl:top-[300px] lg:top-[250px] md:top-[200px] sm:top-[150px] top-[100px] 2xl:left-[107px] sm:left-[46px] left-[31px] 2xl:text-[16px] xl:text-[15px] lg:text-[14px] md:text-[13px] sm:text-[10px] text-[8px];
 }
 
 .heading-social-links-div {
-  @apply flex absolute 2xl:top-[550px] xl:top-[500px] lg:top-[450px] md:top-[400px] sm:top-[300px] top-[250px] 2xl:left-[108px] xl:left-[103px] lg:left-[90px] md:left-[70px] sm:left-[40px] left-[31px] 2xl:gap-[50px] xl:gap-[45px] lg:gap-[40px] md:gap-[30px] sm:gap-[15px] gap-[7px] items-center;
+  @apply flex absolute 2xl:top-[550px] xl:top-[500px] lg:top-[450px] md:top-[400px] sm:top-[300px] top-[250px] 2xl:left-[108px] xl:left-[103px] lg:left-[90px] md:left-[70px] sm:left-[40px] left-[31px] 2xl:gap-[20px] xl:gap-[18px] lg:gap-[17px] md:gap-[16px] sm:gap-[15px] gap-[7px] items-center;
 }
 
 .heading-social-links-a {
@@ -19,8 +19,20 @@
 }
 
 .heading-ambuvians-image-div {
-  @apply   absolute 2xl:top-[30px] lg:top-[28px] md:top-[25px] sm:top-[20px] top-0 2xl:left-[723px] xl:left-[700px] lg:left-[600px] md:left-[430px] sm:left-[350px] left-[220px];
+  @apply   absolute 2xl:top-[30px] lg:top-[28px] md:top-[25px] sm:top-[20px] top-0 2xl:left-[723px] xl:left-[600px] lg:left-[550px] md:left-[430px] sm:left-[350px] left-[220px];
 }
 .heading-ambuvians-image{
     @apply  xl:h-[600px] lg:h-[500px] md:h-[400px] sm:h-[300px] h-[300px]  2xl:w-[594px] xl:w-[500px] lg:w-[400px] md:w-[300px] sm:w-[250px] w-[200px] z-20;
+}
+
+.rotate{
+  animation: rotate 7s linear infinite;
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg); 
+  }
 }

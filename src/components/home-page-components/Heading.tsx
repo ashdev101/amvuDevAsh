@@ -1,5 +1,5 @@
 import { socialMediaLinks } from "../../utils/home-utils/homeUtils";
-import { AmbuviansImage, Illus } from "../../utils/home-utils/images";
+import { AmbuviansImage, IllusBG } from "../../utils/home-utils/images";
 import "../../styles/home-styles/heading.css";
 import Button from "../Button";
 
@@ -42,12 +42,11 @@ const Heading = () => {
 
       {/* Ambuvians Image Div - Right Side Content */}
       <div>
-        <img src={Illus} alt="" className="opacity-90 absolute xl:flex hidden top-0 2xl:left-[760px] xl:left-[590px] lg:left-[430px] -z-0" />
-        <div className="absolute -z-10 bg-[#5CBAD3] w-[60px] h-[60px] xl:flex hidden rounded-full top-[400px] right-[130px]"></div>
+        <img src={IllusBG} alt="" className="rotate 2xl:w-[619px] xl:w-[550px] lg:w-[430px] xl:top-[20px] lg:top-[30px] absolute lg:flex hidden top-0 2xl:left-[760px] xl:left-[650px] lg:left-[580px] -z-0" />
         <div className="heading-ambuvians-image-div">
           <img src={AmbuviansImage} alt="Ambuvians Image" className="heading-ambuvians-image" />
         </div>
-      </div>
+      </div> 
     </div>
   );
 };

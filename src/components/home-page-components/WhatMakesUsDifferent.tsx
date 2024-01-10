@@ -1,5 +1,5 @@
 import { ourBenefits } from "../../utils/home-utils/homeUtils"
-import { Check, Dashboard, Device, Illus, PersonalDetails, User } from "../../utils/home-utils/images"
+import { Check, Dashboard, Device, IllusBG, PersonalDetails, User } from "../../utils/home-utils/images"
 import "../../styles/home-styles/whatMakesIUsDifferent.css"
 import Button from "../Button"
 const WhatMakesUsDifferent = () => {
@@ -37,7 +37,7 @@ const WhatMakesUsDifferent = () => {
                 {/* Right side content */}
                 <div className="w-[50%] 2xl:flex hidden">
                     <div className="w-[689px] h-[619px] m-auto relative">
-                        <img src={Illus} alt="" className="w-[549.37px] h-[551.72px] absolute top-[10%] left-[30px] z-10" />
+                        <img src={IllusBG} alt="" className="w-[549.37px] h-[551.72px] absolute top-[10%] left-[30px] z-10" />
                         <div className="w-[623px] h-[353px] absolute top-[25%] left-[10px] z-30 flex justify-center items-center">
                             <div className="flex h-full w-full relative justify-between items-center">
                                 <img src={User} alt="" className="w-[141px] h-[339px] z-20" />

@@ -28,7 +28,7 @@ import KIET from "../../assets/HomeAssets/KIET.svg";
 import STIC from "../../assets/HomeAssets/STIC.svg";
 import StRCCS from "../../assets/HomeAssets/StRCCS.svg";
 import Customer from "../../assets/HomeAssets/customer.svg";
-import Illus from "../../assets/HomeAssets/illus.png";
+import IllusBG from "../../assets/HomeAssets/bg.png";
 
 const VisionImage1 =
   "https://res.cloudinary.com/dvkfio4zq/image/upload/v1704709561/upload/ambuvians/udxj9gkgfxx6ognre9vz.png";
@@ -76,7 +76,7 @@ export {
   Traffic,
   VideoCall,
   Vector,
-  Illus,
+  IllusBG,
   User,
   PersonalDetails,
   Device,
