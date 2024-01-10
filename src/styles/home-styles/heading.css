@@ -12,6 +12,18 @@
 
 .heading-social-links-a {
   @apply 2xl:h-[45px] xl:h-[43px] lg:h-[40px] md:h-[35px] sm:h-[30px] h-[25px] 2xl:w-[45px] xl:w-[43px] lg:w-[40px] md:w-[35px] sm:w-[30px] w-[25px] rounded-full border border-[#101A24] flex justify-center items-center;
+  background-position: 0 -100%;
+  background-repeat: repeat-x;
+  transition: background-position 0.6s ease;
+  overflow: hidden;
+}
+.heading-social-links-a:hover {
+  background-position: 100% 50%;
+  color: rgb(206, 209, 210);
+}
+
+.liquidbg {
+  background-image: url("https://res.cloudinary.com/dvkfio4zq/image/upload/v1704872783/upload/ambuvians/mbkaa3rprinymdztml8s.png");
 }
 
 .heading-social-link-icons {
@@ -19,13 +31,13 @@
 }
 
 .heading-ambuvians-image-div {
-  @apply   absolute 2xl:top-[30px] lg:top-[28px] md:top-[25px] sm:top-[20px] top-0 2xl:left-[723px] xl:left-[600px] lg:left-[550px] md:left-[430px] sm:left-[350px] left-[220px];
+  @apply absolute 2xl:top-[30px] lg:top-[28px] md:top-[25px] sm:top-[20px] top-0 2xl:left-[723px] xl:left-[600px] lg:left-[550px] md:left-[430px] sm:left-[350px] left-[220px];
 }
-.heading-ambuvians-image{
-    @apply  xl:h-[600px] lg:h-[500px] md:h-[400px] sm:h-[300px] h-[300px]  2xl:w-[594px] xl:w-[500px] lg:w-[400px] md:w-[300px] sm:w-[250px] w-[200px] z-20;
+.heading-ambuvians-image {
+  @apply xl:h-[600px] lg:h-[500px] md:h-[400px] sm:h-[300px] h-[300px]  2xl:w-[594px] xl:w-[500px] lg:w-[400px] md:w-[300px] sm:w-[250px] w-[200px] z-20;
 }
 
-.rotate{
+.rotate {
   animation: rotate 7s linear infinite;
 }
 @keyframes rotate {
@@ -33,6 +45,7 @@
     transform: rotate(0deg);
   }
   100% {
-    transform: rotate(360deg); 
+    transform: rotate(-360deg);
   }
 }
+ 

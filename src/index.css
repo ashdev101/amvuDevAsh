@@ -6,7 +6,12 @@
   display: none;
 } */
 .btn {
-  @apply text-[#FFFFFF] md:text-[18px] text-[15px]   bg-[#FD0808] font-[700] rounded-tl-[20px] rounded-br-[20px] rounded-tr-[3px] rounded-bl-[3px] flex justify-center items-center;
+  @apply 2xl:px-[30px] xl:px-[29px] lg:px-[25px] md:px-[20px] sm:px-[15px] px-[13px]   2xl:py-[14px] xl:py-[13px] lg:py-[13px] md:py-[13px] sm:py-[10px] py-[7px]  2xl:text-[18px] xl:text-[18px] lg:text-[16px] md:text-[14px] sm:text-[13px] text-[11px] text-[#FFFFFF] bg-[#FD0808] font-[700] transition-all duration-[0.3s];
+
+  border-radius: 20px 3px;
+}
+.btn:hover{
+  border-radius: 3px 20px;
 }
 
 .hideScrollbar::-webkit-scrollbar {

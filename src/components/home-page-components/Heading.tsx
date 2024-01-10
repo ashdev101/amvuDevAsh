@@ -1,11 +1,10 @@
+import "../../styles/home-styles/heading.css";
 import { socialMediaLinks } from "../../utils/home-utils/homeUtils";
 import { AmbuviansImage, IllusBG } from "../../utils/home-utils/images";
-import "../../styles/home-styles/heading.css";
-import Button from "../Button";
 
 const Heading = () => {
   return (
-    <div className="flex relative xl:h-[800px] lg:h-[630px] md:h-[530px] sm:h-[400px] h-[340px]">
+    <div className="flex relative xl:h-[700px] lg:h-[600px] md:h-[500px] sm:h-[380px] h-[320px]">
 
       {/* Heading and paragraph div - Left Side Content */}
       <div className="w-[50%] flex items-start flex-col relative">
@@ -31,12 +30,12 @@ const Heading = () => {
               <a
                 key={index}
                 href={sociallink.href}
-                className="heading-social-links-a"
+                className="heading-social-links-a btnFillup liquidbg"
               >
                 <sociallink.icon className="heading-social-link-icons" />
               </a>
             ))}
-          <Button text="Explore" />
+      <a href="" className="btn">Explore</a>
         </div>
       </div>
 

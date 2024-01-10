@@ -1,4 +1,3 @@
- 
 .statistics-box-div {
-  @apply bg-[#FFC4C8] h-[151px] w-[90%] overflow-auto m-auto mt-[30px] gap-[40px] px-[20px] flex lg:justify-evenly justify-between items-center;
+  @apply bg-[#FFC4C8] h-[151px] md:w-[90%] w-[97%] overflow-auto m-auto mt-[30px] gap-[40px] px-[20px] flex lg:justify-evenly justify-between items-center;
 }
