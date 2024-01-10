@@ -2,8 +2,17 @@ import { visionCardTextAndImage } from "../../utils/home-utils/homeUtils";
 import "../../styles/home-styles/ourVision.css"
 
 const OurVision = () => {
+
+
+  function randomTop() {
+    return `${Math.floor(Math.random() * 200)}px`
+  }
+  function randomLeft() {
+    return `${Math.floor(Math.random() * 1000)}px`
+  }
+
   return (
-    <div className="w-full relative lg:mt-[100px] mt-[60px]">
+    <div className="w-full relative xl:mt-[80px] lg:mt-[70px] mt-[50px]">
       <h2 className="all-home-components-heading-h1">Our Vision</h2>
 
       {/* Cards Container */}
@@ -24,10 +33,10 @@ const OurVision = () => {
       </div>
 
       {/* gradients-circles */}
-      <div className="our-vision-gradients-square1"></div>
-      <div className="our-vision-gradients-square2"></div>
-      <div className="our-vision-gradients-square3"></div>
-      <div className="our-vision-gradients-square4"></div>
+      <div className="our-vision-gradients-square1" style={{ top: randomTop(), left: randomLeft() }}></div>
+      <div className="our-vision-gradients-square2" style={{ top: randomTop(), left: randomLeft() }}></div>
+      <div className="our-vision-gradients-square3" style={{ top: randomTop(), left: randomLeft() }}></div>
+      <div className="our-vision-gradients-square4" style={{ top: randomTop(), left: randomLeft() }}></div>
 
     </div>
   )

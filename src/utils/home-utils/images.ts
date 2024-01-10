@@ -29,15 +29,13 @@ import STIC from "../../assets/HomeAssets/STIC.svg";
 import StRCCS from "../../assets/HomeAssets/StRCCS.svg";
 import Customer from "../../assets/HomeAssets/customer.svg";
 import IllusBG from "../../assets/HomeAssets/bg.png";
+import VisionImage1 from "../../assets/HomeAssets/ourVision1.png"
+import VisionImage2 from "../../assets/HomeAssets/ourVision2.png"
+import VisionImage3 from "../../assets/HomeAssets/ourVision3.png"
+import VisionImage4 from "../../assets/HomeAssets/ourVision4.png"
 
-const VisionImage1 =
-  "https://res.cloudinary.com/dvkfio4zq/image/upload/v1704709561/upload/ambuvians/udxj9gkgfxx6ognre9vz.png";
-const VisionImage2 =
-  "https://res.cloudinary.com/dvkfio4zq/image/upload/v1704709561/upload/ambuvians/t0brn5mfdivebt2uwzel.png";
-const VisionImage3 =
-  "https://res.cloudinary.com/dvkfio4zq/image/upload/v1704709563/upload/ambuvians/i8u6n445xwv0g7ic25d0.png";
-const VisionImage4 =
-  "https://res.cloudinary.com/dvkfio4zq/image/upload/v1704709564/upload/ambuvians/s24vphyporofaa3cjo7x.png";
+ 
+ 
 const Teific =
   "https://res.cloudinary.com/dvkfio4zq/image/upload/v1704709556/upload/ambuvians/poflyquili9g8klacvdr.svg";
 const Vactor3 =
