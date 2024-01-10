@@ -4,7 +4,7 @@ import { Check, IllusBG, PersonalDetails, User } from "../../utils/home-utils/im
 import Button from "../Button"
 const WhatMakesUsDifferent = () => {
     return (
-        <div className="w-full 2xl:mt-[20px] xl:mt-[500px] sm:mt-[340px] mt-[400px] relative">
+        <div className="w-full 2xl:mt-[20px] xl:mt-[500px] sm:mt-[340px] mt-[450px] relative">
             <h2 className="all-home-components-heading-h1">What Makes Us Different</h2>
             <div className="w-full h-full flex">
 
