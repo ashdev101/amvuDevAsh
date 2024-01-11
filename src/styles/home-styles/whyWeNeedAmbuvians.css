@@ -1,23 +1,23 @@
 .whyWeNeedAmbuvians-traffic-image {
-  @apply xl:static absolute sm:top-[20%] top-[27%] left-[4.5%] xl:w-[247px] lg:w-[240px] md:w-[200px] sm:w-[150px] w-[100px] xl:h-[259px] lg:h-[250px] md:h-[200px] sm:h-[150px] h-[110px] object-cover rounded-[20px];
+  @apply xl:static absolute sm:top-[20%] top-[20%] left-[4.5%] xl:w-[247px] lg:w-[240px] md:w-[200px] sm:w-[150px] w-[100px] xl:h-[259px] lg:h-[250px] md:h-[200px] sm:h-[150px] h-[110px] object-cover rounded-[20px];
 }
 
 .whyWeNeedAmbuvians-patient1-image {
-  @apply xl:static absolute lg:top-[45%] md:top-[42%] top-[42%] left-[37%]  xl:w-[288px] lg:w-[240px] md:w-[190px] sm:w-[180px] w-[100px]  xl:h-[346px] lg:h-[300px] md:h-[250px] sm:h-[300px] h-[150px] object-cover rounded-[20px];
+  @apply xl:static absolute lg:top-[45%] md:top-[42%] top-[39%] left-[37%]  xl:w-[288px] lg:w-[240px] md:w-[190px] sm:w-[180px] w-[100px]  xl:h-[346px] lg:h-[300px] md:h-[250px] sm:h-[300px] h-[150px] object-cover rounded-[20px];
 }
 
 .whyWeNeedAmbuvians-patientOnBike-image {
-  @apply xl:static absolute sm:top-[60%] top-[50%] lg:left-[1%] sm:left-[4%] left-[0.5%] xl:w-[512px] lg:w-[340px] md:w-[240px] sm:w-[200px] w-[130px] xl:h-[346px] lg:h-[250px] md:h-[175px] sm:h-[125px] h-[80px] object-cover rounded-[20px];
+  @apply xl:static absolute sm:top-[60%] top-[48%] lg:left-[1%] sm:left-[4%] left-[0.5%] xl:w-[512px] lg:w-[340px] md:w-[240px] sm:w-[200px] w-[130px] xl:h-[346px] lg:h-[250px] md:h-[175px] sm:h-[125px] h-[80px] object-cover rounded-[20px];
 }
 
 .whyWeNeedAmbuvians-patient2-image {
-  @apply xl:static absolute sm:top-[60%] top-[45%] lg:right-[1%] sm:right-[4%] right-[1%]  xl:w-[512px] lg:w-[340px] md:w-[240px] sm:w-[200px] w-[120px] xl:h-[346px]  lg:h-[250px] md:h-[175px] sm:h-[125px] h-[70px] object-cover rounded-[20px];
+  @apply xl:static absolute sm:top-[60%] top-[40%] lg:right-[1%] sm:right-[4%] right-[1%]  xl:w-[512px] lg:w-[340px] md:w-[240px] sm:w-[200px] w-[120px] xl:h-[346px]  lg:h-[250px] md:h-[175px] sm:h-[125px] h-[70px] object-cover rounded-[20px];
 }
 
-.whyWeNeedAmbuvians-vactor3{
-    @apply xl:h-[531px] lg:h-[400px] sm:h-[300px] h-[160px] absolute lg:bottom-[-20%] md:bottom-[-10%] sm:bottom-[0%] bottom-[26%] left-0;
+.whyWeNeedAmbuvians-vactor3 {
+  @apply xl:h-[531px] lg:h-[400px] sm:h-[300px] h-[160px] absolute lg:bottom-[-20%] md:bottom-[-10%] sm:bottom-[0%] bottom-[29%] left-0;
 }
 
-.whyWeNeedAmbuvians-vactor4{
-    @apply xl:h-[531px] lg:h-[400px] sm:h-[300px] h-[200px] absolute sm:top-0 top-[45%]  lg:bottom-[-5%] md:bottom-[5%] sm:bottom-[7%] bottom-[25%] right-0;
+.whyWeNeedAmbuvians-vactor4 {
+  @apply xl:h-[531px] lg:h-[400px] sm:h-[300px] h-[200px] absolute sm:top-0 top-[36%]  lg:bottom-[-5%] md:bottom-[5%] sm:bottom-[7%] right-0;
 }

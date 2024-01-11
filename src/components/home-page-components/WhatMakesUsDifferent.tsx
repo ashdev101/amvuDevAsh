@@ -4,13 +4,13 @@ import { Check, IllusBG, PersonalDetails, User } from "../../utils/home-utils/im
 import Button from "../Button"
 const WhatMakesUsDifferent = () => {
     return (
-        <div className="w-full 2xl:mt-[20px] xl:mt-[500px] sm:mt-[340px] mt-[450px] relative">
+        <div className="w-full 2xl:mt-[20px] xl:mt-[500px] sm:mt-[420px] mt-[460px] relative">
             <h2 className="all-home-components-heading-h1">What Makes Us Different</h2>
             <div className="w-full h-full flex">
 
                 {/* left side content */}
                 <div className="2xl:w-[50%] w-full flex flex-col  items-center">
-                    <h3 className="text-[#DC1F27] xl:w-[510px] md:w-[450px] sm:w-[350px] w-[310px] font-[700] xl:text-[39px] md:text-[30px] text-[22px] md:leading-[55px] leading-[30px] ading-[55px] ml-[50px]  md:mt-[80px] mt-[40px]">
+                    <h3 className="text-[#DC1F27] xl:w-[510px] md:w-[450px] sm:w-[350px] w-[310px] font-[700] xl:text-[39px] md:text-[30px] text-[22px] md:leading-[55px] leading-[30px] ading-[55px] ml-[50px]  mt-[40px]">
                         Experience the all in one portal for all your needs like
                     </h3>
                     <div className="2xl:w-full h-full xl:ml-[100px]">

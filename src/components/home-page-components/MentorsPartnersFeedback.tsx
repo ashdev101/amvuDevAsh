@@ -5,7 +5,7 @@ import Partners from "./components/Partners"
 
 const MentorsPartnersFeedback = () => {
     return (
-        <div className=" relative w-full md:mt-[100px] sm:mt-[0px] mt-[-100px]">
+        <div className=" relative w-full md:mt-[120px] sm:mt-[0px] mt-[-180px]">
             <Mentors />
             <Partners />
             <Feedbacks />
