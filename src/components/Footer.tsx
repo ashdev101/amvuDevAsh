@@ -1,6 +1,6 @@
-import { Link } from "react-router-dom"
-import "../styles/footer.css"
-import { AppStore, Emails, FollowUsOn, FooterLinks, FooterPolicys, GetTheApp, GmailIcon, GooglePlay, Instagram, LinkedIn, Location, LocationIcon, PhoneNumbers, RingIcon, ServicesFooter, Twitter, Whatsapp } from '../utils/footerUtils';
+import { Link } from "react-router-dom";
+import "../styles/footer.css";
+import { Emails, FollowUsOn, FooterLinks, FooterPolicys, GetTheApp, GmailIcon, Location, LocationIcon, PhoneNumbers, RingIcon, ServicesFooter } from '../utils/footerUtils';
 
 
 
