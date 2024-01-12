@@ -26,5 +26,5 @@ const Feedbacks = () => {
         </div>
     )
 }
-
+ 
 export default Feedbacks

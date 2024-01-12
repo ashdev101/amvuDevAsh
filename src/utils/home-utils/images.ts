@@ -26,7 +26,7 @@ import Instagram from "../../assets/HomeAssets/Instagram.svg";
 import KIET from "../../assets/HomeAssets/KIET.svg";
 import STIC from "../../assets/HomeAssets/STIC.svg";
 import StRCCS from "../../assets/HomeAssets/StRCCS.svg";
-import Customer from "../../assets/HomeAssets/customer.svg";
+import Customer from "../../assets/HomeAssets/customer.png";
 import IllusBG from "../../assets/HomeAssets/bg.png";
 import VisionImage1 from "../../assets/HomeAssets/ourVision1.png";
 import VisionImage2 from "../../assets/HomeAssets/ourVision2.png";
