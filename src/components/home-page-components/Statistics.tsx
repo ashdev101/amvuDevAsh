@@ -8,7 +8,7 @@ const Statistics = () => {
       <H2 text="Statistics" />
       <motion.div
         className="statistics-box-div hideScrollbar"
-        initial={{ x: "-300px", opacity: 0 }}
+        initial={{ x: "-50px", opacity: 0 }}
         whileInView={{
           x: 0,
           opacity: 1,
