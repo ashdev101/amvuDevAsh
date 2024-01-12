@@ -18,7 +18,6 @@ import Patient1 from "../../assets/HomeAssets/patient1.svg";
 import Patient2 from "../../assets/HomeAssets/patient2.svg";
 import PatientOnBike from "../../assets/HomeAssets/patientOnBike.svg";
 import Rectangle from "../../assets/HomeAssets/Rectangle.svg";
-import RohitSharma from "../../assets/HomeAssets/rohit sharma.svg";
 import Traffic from "../../assets/HomeAssets/traffic.svg";
 import Gmail from "../../assets/HomeAssets/Gmail.svg";
 import Linkedin from "../../assets/HomeAssets/LinkedIn.svg";
@@ -47,6 +46,13 @@ const Vector =
   "https://res.cloudinary.com/dvkfio4zq/image/upload/v1704709559/upload/ambuvians/s7okggipw4c8gquy6iyi.png";
 const User =
   "https://res.cloudinary.com/dvkfio4zq/image/upload/v1704709565/upload/ambuvians/ivktnwcyiznmligretyu.svg";
+
+/* Team Photo */
+import DrManojGoel from "../../assets/TeamPhoto/Manoj Goel JD.png";
+import MrRohitSharma from "../../assets/TeamPhoto/rohit Sharma.png";
+import DrVineetSharma from "../../assets/TeamPhoto/Dr. Vineet Sharma.png";
+import SauravKumar from "../../assets/TeamPhoto/Saurav Kumar.png";
+import DrRahat from "../../assets/TeamPhoto/Rahat.png";
 
 export {
   AmbuviansImage,
@@ -82,7 +88,6 @@ export {
   Vactor3,
   Vactor4,
   Rectangle,
-  RohitSharma,
   Gmail,
   Linkedin,
   Instagram,
@@ -90,4 +95,9 @@ export {
   STIC,
   StRCCS,
   Customer,
+  DrManojGoel,
+  MrRohitSharma,
+  DrVineetSharma,
+  SauravKumar,
+  DrRahat,
 };

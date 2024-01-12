@@ -2,15 +2,18 @@ import { FaFacebookF, FaInstagram } from "react-icons/fa";
 import { TfiTwitter } from "react-icons/tfi";
 
 import {
-  Documentation,
-  Teific,
   Analysis,
+  Documentation,
+  DrManojGoel,
+  DrRahat,
+  DrVineetSharma,
   Gmail,
   Instagram,
   KIET,
   Linkedin,
-  RohitSharma,
+  MrRohitSharma,
   STIC,
+  SauravKumar,
   Service1,
   Service2,
   Service3,
@@ -21,11 +24,12 @@ import {
   StatisticsImage3,
   StatisticsImage4,
   StatisticsImage5,
+  Teific,
   VideoCall,
   VisionImage1,
   VisionImage2,
   VisionImage3,
-  VisionImage4,
+  VisionImage4
 } from "./images";
 
 /* social Media Links - Heading Component */
@@ -159,11 +163,11 @@ export const ourBenefits = [
 /* Out Mentors - Mentors component */
 export const ourMentors = [
   {
-    image: RohitSharma,
-    name: "Dr. Rohit Sharma",
-    experience: "HOD | KIET, Ghaziabad",
+    image: DrManojGoel,
+    name: "Dr. Manoj Goel",
+    experience: "Joint Director of KIET",
     about:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's",
+      "Meet the Joint Director of KIET, a visionary leader with extensive expertise. Also serving on the Board of Advisors for Ambuvians, guiding strategic growth and innovation in healthcare services.",
     socialMediaLinks: [
       {
         href: "",
@@ -183,11 +187,11 @@ export const ourMentors = [
     ],
   },
   {
-    image: RohitSharma,
-    name: "Dr. Rohit Sharma",
-    experience: "HOD | KIET, Ghaziabad",
+    image: MrRohitSharma,
+    name: "Mr. Rohit Sharma",
+    experience: "Senior Network Engineer from Microsoft",
     about:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's",
+      "Introducing a Senior Network Engineer from Microsoft, now lending expertise as a Board of Advisor for Ambuvians. Leveraging tech insights to advance healthcare solutions and infrastructure.",
     socialMediaLinks: [
       {
         href: "",
@@ -207,11 +211,11 @@ export const ourMentors = [
     ],
   },
   {
-    image: RohitSharma,
-    name: "Dr. Rohit Sharma",
-    experience: "HOD | KIET, Ghaziabad",
+    image: DrVineetSharma,
+    name: "Dr. Vineet Sharma",
+    experience: "Head of Department for CSE at KIET",
     about:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's",
+      "Presenting the Head of Department for CSE at KIET, now a distinguished Board of Advisor for Ambuvians. Bridging academic excellence with innovative healthcare strategies for a brighter future",
     socialMediaLinks: [
       {
         href: "",
@@ -231,11 +235,35 @@ export const ourMentors = [
     ],
   },
   {
-    image: RohitSharma,
-    name: "Dr. Rohit Sharma",
-    experience: "HOD | KIET, Ghaziabad",
+    image: SauravKumar,
+    name: "Saurav Kumar",
+    experience: "General Manager and CEO of KIET-TBI",
     about:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's",
+      "Meet the dynamic General Manager and CEO of KIET-TBI. With a rich blend of leadership and innovation, they steer Ambuvians as a valued Board of Advisor, driving transformative healthcare solutions.",
+    socialMediaLinks: [
+      {
+        href: "",
+        icon: Gmail,
+        alt: "Gmail",
+      },
+      {
+        href: "",
+        icon: Linkedin,
+        alt: "Linkedin",
+      },
+      {
+        href: "",
+        icon: Instagram,
+        alt: "Instagram",
+      },
+    ],
+  },
+  {
+    image: DrRahat,
+    name: "Dr. Rahat Ullah Khan",
+    experience: "Director and esteemed Advisor of Ambuvians",
+    about:
+      "Introducing the Director and esteemed Advisor of Ambuvians. With strategic vision and deep industry insights, they champion excellence and steer Ambuvians towards groundbreaking healthcare innovations.",
     socialMediaLinks: [
       {
         href: "",
