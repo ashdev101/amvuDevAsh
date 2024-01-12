@@ -1,6 +1,7 @@
 import { visionCardTextAndImage } from "../../utils/home-utils/homeUtils";
 import "../../styles/home-styles/ourVision.css"
-
+import H2 from "./components/H2";
+import { motion } from "framer-motion"
 const OurVision = () => {
 
 
@@ -13,10 +14,20 @@ const OurVision = () => {
 
   return (
     <div className="w-full relative xl:mt-[80px] lg:mt-[70px] mt-[50px]">
-      <h2 className="all-home-components-heading-h1">Our Vision</h2>
+      <H2 text="Our Vision" />
 
       {/* Cards Container */}
-      <div className="md:h-[320.93px] h-[280px] sm:w-[70%] w-[90%]  flex xl:justify-evenly justify-between overflow-auto  hideScrollbar gap-[30px]  m-auto mt-14 mb-3 ">
+      <motion.div
+        className="md:h-[320.93px] h-[280px] sm:w-[70%] w-[90%]  flex xl:justify-evenly justify-between overflow-auto  hideScrollbar gap-[30px]  m-auto mt-14 mb-3"
+        initial={{ y: "100px", opacity: 0 }}
+        whileInView={{
+          y: 0,
+          opacity: 1,
+          transition: {
+            duration: 0.5,
+          },
+        }}
+      >
         {/* Cards */}
         {
           visionCardTextAndImage && visionCardTextAndImage.map((element, index) => (
@@ -29,8 +40,7 @@ const OurVision = () => {
             </div>
           ))
         }
-
-      </div>
+      </motion.div>
 
       {/* gradients-circles */}
       <div className="our-vision-gradients-square1" style={{ top: randomTop(), left: randomLeft() }}></div>
