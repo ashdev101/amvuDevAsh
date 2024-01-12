@@ -22,10 +22,10 @@ const Navbar = () => {
   }
 
   return (
-    <nav className=" lg:h-[80px] md:h-[70px] h-[60px] min-w-full lg:pt-[20px] pt-[0] px-[5px] lg:bg-white bg-slate-300/50 ">
+    <nav className="lg:h-[86px] md:h-[70px] h-[60px] min-w-full lg:py-[30px] pt-[0] px-[5px] lg:bg-white bg-slate-300/50 sticky top-0 left-0 z-50">
       <div className="h-full w-full">
         <div className=" float-left flex justify-center items-center ml-[5%] h-full">
-          <a href={"/"} className=' italic text-xl font-bold'><img className="xl:w-[180px] lg:w-[150px] md:w-[120px]  w-[80px] xl:h-[90px] lg:h-[60px] md:h-[50px] h-[40px] lg:mt-[7px]" src={Logo} alt="Ambuvians" /></a>
+          <a href={"/"}><img className="xl:w-[180px] lg:w-[150px] md:w-[120px]  w-[80px] xl:h-[90px] lg:h-[60px] md:h-[50px] h-[40px] lg:mt-[7px]" src={Logo} alt="Ambuvians" /></a>
         </div>
 
         {/* NavLinks For Desktop */}
