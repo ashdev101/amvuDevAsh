@@ -15,7 +15,7 @@ const Heading = () => {
             y: 0,
             opacity: 1,
             transition: {
-              duration: 0.8,
+              duration: 0.5,
             },
           }}
         >
@@ -62,7 +62,7 @@ const Heading = () => {
       <div>
         <img src={IllusBG} alt="" className="rotate 2xl:w-[619px] xl:w-[550px] lg:w-[430px] xl:top-[20px] lg:top-[30px] absolute lg:flex hidden top-0 2xl:left-[760px] xl:left-[650px] lg:left-[580px] -z-0" />
         <motion.div className="heading-ambuvians-image-div"
-          initial={{ opacity: 0, scale: 0.8 }}
+          initial={{ opacity: 0,scale: 0.8 }}
           whileInView={{ opacity: 1, scale: 1 }}
           transition={{
             duration: 0.4,

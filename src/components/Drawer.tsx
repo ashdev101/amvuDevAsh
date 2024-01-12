@@ -18,7 +18,7 @@ const Drawer: React.FC<DrawerPropsTypes> = ({ isOpen, toggleFunction, updateActi
         updateActiveLinks(href)
         toggleFunction()
     }
-    console.log(activeLink)
+     
 
     return (
         <div className={`drawer ${isOpen ? 'open' : ''}`}>
