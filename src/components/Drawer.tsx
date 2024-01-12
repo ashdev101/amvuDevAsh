@@ -25,8 +25,8 @@ const Drawer: React.FC<DrawerPropsTypes> = ({ isOpen, toggleFunction, updateActi
             <button className="text-[25px] float-right" onClick={toggleFunction}>
                 <IoCloseSharp />
             </button>
-            <div className="mt-[50px]">
-                <div className="float-right h-full w-[80%] justify-evenly gap-[20px]  lg:hidden flex flex-col">
+            <div className="mt-[50px] ml-[10%] flex flex-col justify-between h-[90%]">
+                <div className="float-right h-full w-[80%] gap-[20px]  lg:hidden flex flex-col">
                     {
                         NavLinks && NavLinks.map((link, index) => (
                             <Link
@@ -37,10 +37,13 @@ const Drawer: React.FC<DrawerPropsTypes> = ({ isOpen, toggleFunction, updateActi
                             </Link>
                         ))
                     }
-                    <Link to="/login" className="bg-[#FD0808] w-[150px] text-white py-[12px] px-[17px] rounded-[8px] text-[16px]">
-                        Login | Sign UP
-                    </Link>
+
                 </div>
+            <div>
+            <Link to="/login" className="bg-[#FD0808] w-[150px] text-white py-[12px] px-[17px] rounded-[8px] text-[16px]">
+                    Login | Sign UP
+                </Link>
+            </div>
             </div>
         </div>
     );

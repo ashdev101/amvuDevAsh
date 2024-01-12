@@ -18,3 +18,13 @@
   display: none;
 }
 
+.progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: red;
+  transform-origin: 0%;
+  z-index: 100;
+  @apply xl:h-[10px] md:h-[7px] h-[5px]
+}
