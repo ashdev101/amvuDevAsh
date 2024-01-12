@@ -128,7 +128,7 @@ const Footer = () => {
             </div>
 
             {/*  Get The App, Follow Us For Small Devices   */}
-            <div className="flex lg:hidden mt-[30px] justify-evenly ml-[10%] gap-[30px]">
+            <div className="flex lg:hidden mt-[30px] justify-evenly ml-[10%] mr-[10%]  gap-[30px]">
                 <div className="flex flex-col w-[50%] gap-[10px]">
                     <h3 className='footer-h3'>Follow us on</h3>
                     <div className="flex gap-[10%]">
