@@ -1,12 +1,21 @@
-import GooglePlay from "../assets/FooterAssets/BadgeGooglePlay.svg";
-import AppStore from "../assets/FooterAssets/BadgeAppStore.svg";
-import Instagram from "../assets/FooterAssets/iconInstagram.svg";
-import Whatsapp from "../assets/FooterAssets/iconWhatsapp.svg";
-import Twitter from "../assets/FooterAssets/iconBigX.svg";
-import LinkedIn from "../assets/FooterAssets/iconLinkedIn.svg";
-import LocationIcon from "../assets/FooterAssets/LocationIcon.svg";
-import GmailIcon from "../assets/FooterAssets/GmailIcon.svg";
-import RingIcon from "../assets/FooterAssets/RingerVolume.svg";
+const GooglePlay =
+  "https://res.cloudinary.com/dvkfio4zq/image/upload/v1705080590/upload/ambuvians/uwdd3okoc2lnapve2xaf.svg";
+const AppStore =
+  "https://res.cloudinary.com/dvkfio4zq/image/upload/v1705080590/upload/ambuvians/u5wbgxdgybo6cdnhvvqz.svg";
+const Instagram =
+  "https://res.cloudinary.com/dvkfio4zq/image/upload/v1705080592/upload/ambuvians/ub0rwymzsrralywdw7sa.svg";
+const Whatsapp =
+  "https://res.cloudinary.com/dvkfio4zq/image/upload/v1705080592/upload/ambuvians/ad4vk54nkwpvaemhj4bv.svg";
+const Twitter =
+  "https://res.cloudinary.com/dvkfio4zq/image/upload/v1705080591/upload/ambuvians/shvzy6qkck0fy6mxhhil.svg";
+const LinkedIn =
+  "https://res.cloudinary.com/dvkfio4zq/image/upload/v1705080592/upload/ambuvians/lqxyw2wiz1xs5kfru4hp.svg";
+const LocationIcon =
+  "https://res.cloudinary.com/dvkfio4zq/image/upload/v1705080592/upload/ambuvians/om4byhcw3c0rarstxiso.svg";
+const GmailIcon =
+  "https://res.cloudinary.com/dvkfio4zq/image/upload/v1705080590/upload/ambuvians/d08lj6bkao2oeltthfyt.svg";
+const RingIcon =
+  "https://res.cloudinary.com/dvkfio4zq/image/upload/v1705080592/upload/ambuvians/txsdcnh3sajvtpgeq1u9.svg";
 
 export {
   GooglePlay,

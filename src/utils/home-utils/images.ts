@@ -48,11 +48,16 @@ const User =
   "https://res.cloudinary.com/dvkfio4zq/image/upload/v1704709565/upload/ambuvians/ivktnwcyiznmligretyu.svg";
 
 /* Team Photo */
-import DrManojGoel from "../../assets/TeamPhoto/Manoj Goel JD.png";
-import MrRohitSharma from "../../assets/TeamPhoto/rohit Sharma.png";
-import DrVineetSharma from "../../assets/TeamPhoto/Dr. Vineet Sharma.png";
-import SauravKumar from "../../assets/TeamPhoto/Saurav Kumar.png";
-import DrRahat from "../../assets/TeamPhoto/Rahat.png";
+const DrManojGoel =
+  "https://res.cloudinary.com/dvkfio4zq/image/upload/v1705079977/upload/ambuvians/sfqgcbxs4yv6kabjqfrp.png";
+const MrRohitSharma =
+  "https://res.cloudinary.com/dvkfio4zq/image/upload/v1705079977/upload/ambuvians/rejg2gtshjk5p77yg3v9.png";
+const DrVineetSharma =
+  "https://res.cloudinary.com/dvkfio4zq/image/upload/v1705079977/upload/ambuvians/arfqsxssgnsys7wrzdss.png";
+const SauravKumar =
+  "https://res.cloudinary.com/dvkfio4zq/image/upload/v1705079978/upload/ambuvians/a5eat9lttws7xtr5gw3z.png";
+const DrRahat =
+  "https://res.cloudinary.com/dvkfio4zq/image/upload/v1705079977/upload/ambuvians/y4rrthnooyykasbttwjj.png";
 
 export {
   AmbuviansImage,
