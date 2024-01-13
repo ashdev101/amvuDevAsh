@@ -1,5 +1,6 @@
 import { Patient1, Patient2, PatientOnBike, Traffic, Vactor3, Vactor4 } from "../../utils/home-utils/images"
-import "../../styles/home-styles/whyWeNeedAmbuvians.css"
+import "../../styles/home-styles/whyWeNeedAmbuvians.css";
+
 const WhyWeNeedAmbuvians = () => {
     return (
         <div className="w-full relative lg:mt-[100px] sm:mt-[90px] mt-[60px]">
