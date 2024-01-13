@@ -6,12 +6,11 @@ interface FeedbackCardType {
     image?: string;
     name: string;
     comment: string;
-    postDesignation: string;
     rating: number;
 }
 
 
-const FeedbackCard: React.FC<FeedbackCardType> = ({ image, name, comment, postDesignation, rating }) => {
+const FeedbackCard: React.FC<FeedbackCardType> = ({ image, name, comment, rating }) => {
     return (
         <div className="feedback-card flex flex-col items-center">
             <img src={image ? image : Customer} alt="" className="md:w-[149px] w-[100px] md:h-[149px] h-[100px] rounded-full" />
@@ -23,9 +22,6 @@ const FeedbackCard: React.FC<FeedbackCardType> = ({ image, name, comment, postDe
             </div>
             <p className="w-[200px] h-[20px] mt-[30px] font-[600] md:text-[14px] text-[12px] text-[#23A6F0] text-center">
                 {name}
-            </p>
-            <p className="text-center  md:h-[20px] h-[10px] text-[#252B42] font-[600] md:text-[15px] text-[13px] mt-[10px]">
-                {postDesignation}
             </p>
         </div>
     )

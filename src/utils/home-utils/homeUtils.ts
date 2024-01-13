@@ -29,7 +29,7 @@ import {
   VisionImage1,
   VisionImage2,
   VisionImage3,
-  VisionImage4
+  VisionImage4,
 } from "./images";
 
 /* social Media Links - Heading Component */
@@ -79,7 +79,6 @@ export const statisticsImageAndText = [
     text: "Hospital Tie ups",
   },
 ];
- 
 
 /* vision Card Text And Image - OurVision component */
 export const visionCardTextAndImage = [
@@ -313,7 +312,6 @@ export const customerFeedback = [
       "I'm thrilled to hear about the launch of Ambuvians! This initiative is a game-changer in healthcare and truly showcases innovation at its best.",
     name: "Amit Dhapa",
     rating: 5,
-    postDesignation: "Mahasiswa di WPU",
   },
 
   {
@@ -322,7 +320,6 @@ export const customerFeedback = [
       "What an incredible concept! Ambuvians is not just a service, it's a testament to the commitment towards humanity and health. Kudos to the team!",
     rating: 5,
     name: "Rohit Singh",
-    postDesignation: "Mahasiswa di WPU",
   },
 
   {
@@ -331,7 +328,6 @@ export const customerFeedback = [
       "As someone who values healthcare accessibility, Ambuvians has my full support. This is exactly what our community needs.",
     rating: 5,
     name: "Akshay Malik",
-    postDesignation: "Mahasiswa di WPU",
   },
 
   {
@@ -340,7 +336,6 @@ export const customerFeedback = [
       "Ambuvians is more than just a service; it's a lifeline. I'm genuinely excited to see the positive impact it will have on countless lives.",
     rating: 5,
     name: "Vanshika Dhaiya",
-    postDesignation: "Mahasiswa di WPU",
   },
 
   {
@@ -349,7 +344,6 @@ export const customerFeedback = [
       "The launch of Ambuvians is a beacon of hope. It's heartening to see such innovative solutions being implemented for the betterment of society",
     rating: 5,
     name: "Aman Goel",
-    postDesignation: "Mahasiswa di WPU",
   },
   {
     image: "",
@@ -357,7 +351,6 @@ export const customerFeedback = [
       "I've always believed in initiatives that prioritize humanity, and Ambuvians is a prime example. This is a commendable ef ort towards healthcare excellence",
     rating: 5,
     name: "Ravinder",
-    postDesignation: "Mahasiswa di WPU",
   },
   {
     image: "",
@@ -365,7 +358,6 @@ export const customerFeedback = [
       "I've always believed in initiatives that prioritize humanity, and Ambuvians is a prime example. This is a commendable ef ort towards healthcare excellence",
     rating: 5,
     name: "Ravinder",
-    postDesignation: "Mahasiswa di WPU",
   },
   {
     image: "",
@@ -373,7 +365,6 @@ export const customerFeedback = [
       "Ambuvians is setting a new standard in healthcare services. I'm truly impressed by the vision and dedication behind this initiative",
     rating: 5,
     name: "Kritika Singal",
-    postDesignation: "Mahasiswa di WPU",
   },
   {
     image: "",
@@ -381,7 +372,6 @@ export const customerFeedback = [
       "The anticipation for Ambuvians is palpable! This is not just another service; it's a revolution in healthcare that promises to make a dif erence.",
     rating: 5,
     name: "Aditya Bansal",
-    postDesignation: "Mahasiswa di WPU",
   },
   {
     image: "",
@@ -389,7 +379,6 @@ export const customerFeedback = [
       "Healthcare should be accessible to all, and Ambuvians are bridging the gap brilliantly. I'm eager to see the positive transformations it will bring.",
     rating: 5,
     name: "Himanshi Chaudhary",
-    postDesignation: "Mahasiswa di WPU",
   },
   {
     image: "",
@@ -397,6 +386,5 @@ export const customerFeedback = [
       "Ambuvians are a breath of fresh air in the healthcare landscape. The commitment to humanity and health is evident, and I can't wait to see it in action.",
     rating: 5,
     name: "Seema Maitrey",
-    postDesignation: "Mahasiswa di WPU",
   },
 ];

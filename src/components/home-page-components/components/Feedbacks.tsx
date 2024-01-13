@@ -17,7 +17,6 @@ const Feedbacks = () => {
                             image={feedback.image}
                             comment={feedback.comment}
                             rating={feedback.rating}
-                            postDesignation={feedback.postDesignation}
                         />
                     ))
                 }
@@ -26,5 +25,5 @@ const Feedbacks = () => {
         </div>
     )
 }
- 
+
 export default Feedbacks
