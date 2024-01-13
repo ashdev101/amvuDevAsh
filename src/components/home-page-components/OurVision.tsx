@@ -5,12 +5,12 @@ import { motion } from "framer-motion"
 const OurVision = () => {
 
 
-  function randomTop() {
+/*   function randomTop() {
     return `${Math.floor(Math.random() * 200)}px`
   }
   function randomLeft() {
     return `${Math.floor(Math.random() * 1000)}px`
-  }
+  } */
 
   return (
     <div className="w-full relative xl:mt-[80px] lg:mt-[70px] mt-[50px]">
@@ -43,11 +43,11 @@ const OurVision = () => {
       </motion.div>
 
       {/* gradients-circles */}
-      <div className="our-vision-gradients-square1" style={{ top: randomTop(), left: randomLeft() }}></div>
+ {/*      <div className="our-vision-gradients-square1" style={{ top: randomTop(), left: randomLeft() }}></div>
       <div className="our-vision-gradients-square2" style={{ top: randomTop(), left: randomLeft() }}></div>
       <div className="our-vision-gradients-square3" style={{ top: randomTop(), left: randomLeft() }}></div>
       <div className="our-vision-gradients-square4" style={{ top: randomTop(), left: randomLeft() }}></div>
-
+ */}
     </div>
   )
 }
