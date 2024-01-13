@@ -45,7 +45,7 @@ const Vector =
 const Analysis =
   "https://res.cloudinary.com/dvkfio4zq/image/upload/v1705129531/upload/ambuvians/unr3irffg9q5xtijhzwp.png";
 const Documentation =
-  "https://res.cloudinary.com/dvkfio4zq/image/upload/v1705129531/upload/ambuvians/unr3irffg9q5xtijhzwp.png";
+  "https://res.cloudinary.com/dvkfio4zq/image/upload/v1705129618/upload/ambuvians/xnu5qanaae9ofpaz5lwu.png";
 const VideoCall =
   "https://res.cloudinary.com/dvkfio4zq/image/upload/v1705129710/upload/ambuvians/ckkxaa2hefyta2ft18zt.png";
 
