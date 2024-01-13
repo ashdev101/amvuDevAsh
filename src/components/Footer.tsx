@@ -11,7 +11,7 @@ const Footer = () => {
 
             {/* Heading for Small Devices (dotted border bootom) */}
             <div className="border-b border-dotted border-white/50 lg:hidden flex justify-center items-center pt-[20px] pb-[5px]">
-                <h3 className="md:text-[20px] sm:text-[18px] text-[16px]"> India's First Unified Health Care Services</h3>
+                <h3 className="md:text-[20px] sm:text-[18px] text-[16px]" style={{fontFamily:"Kadwa"}}> India's First Unified Health Care Services</h3>
             </div>
 
             {/* contanet - (Get The App, Follow Us, Know Us, Services, Contact Us) */}
@@ -19,7 +19,7 @@ const Footer = () => {
 
                 {/* Get The App, Follow Us */}
                 <div className="lg:flex hidden flex-col gap-[30px]">
-                    <h3 className="footer-h3 xl:w-full w-[90%] lg:flex hidden">
+                    <h3 className="footer-h3 xl:w-full w-[90%] lg:flex hidden" style={{fontFamily:"Kadwa"}}>
                         India's First Unified Health Care Services
                     </h3>
                     {/* Get The App Div */}

@@ -25,7 +25,7 @@ const OurVision = () => {
         {
           visionCardTextAndImage && visionCardTextAndImage.map((element, index) => (
             <div key={index} className="w-[218.63px] h-full border-[3px] border-black rounded-[20px] gap-[17px] flex flex-col pt-[25px] items-center" >
-              <p className=" capitalize font-[700] text-[15px] leading-[22.5px] text-[#263238] text-center w-[182.53px] md:px-0 px-[4px] ">
+              <p className=" capitalize font-[600] text-[15px] leading-[22.5px] text-[#263238] text-center w-[192.53px] h-[25%] md:px-0 px-[5px] ">
                 <span className="font-[400] text-[12px] text-[#000000]" >{element.text1}</span> <br />
                 {element.text2}
               </p>
