@@ -1,21 +1,14 @@
 import { statisticsImageAndText } from "../../utils/home-utils/homeUtils";
 import "../../styles/home-styles/statistics.css";
-import { motion } from "framer-motion"
+//import { motion } from "framer-motion"
 import H2 from "./components/H2";
 const Statistics = () => {
   return (
     <div className="w-full">
       <H2 text="Statistics" />
-      <motion.div
+      <div
         className="statistics-box-div hideScrollbar"
-        initial={{ x: "-50px", opacity: 0 }}
-        whileInView={{
-          x: 0,
-          opacity: 1,
-          transition: {
-            duration: 0.8,
-          },
-        }}
+
       >
         {
           statisticsImageAndText && statisticsImageAndText.map((element, index) => (
@@ -28,7 +21,7 @@ const Statistics = () => {
             </div>
           ))
         }
-      </motion.div>
+      </div>
     </div>
   )
 }

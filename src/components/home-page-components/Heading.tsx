@@ -1,8 +1,8 @@
 import "../../styles/home-styles/heading.css";
 import { socialMediaLinks } from "../../utils/home-utils/homeUtils";
 import { AmbuviansImage, IllusBG } from "../../utils/home-utils/images";
-import { motion } from "framer-motion";
- 
+//import { motion } from "framer-motion";
+
 
 const Heading = () => {
   return (
@@ -10,15 +10,7 @@ const Heading = () => {
 
       {/* Heading and paragraph div - Left Side Content */}
       <div className="w-[50%] flex items-start flex-col relative">
-        <motion.div
-          initial={{ y: "30px", opacity: 0 }}
-          whileInView={{
-            y: 0,
-            opacity: 1,
-            transition: {
-              duration: 0.5,
-            },
-          }}
+        <div
         >
           <h1 className="heading-H1">
             Ambuvians <br />
@@ -32,19 +24,11 @@ const Heading = () => {
             and we are here to offer you rapid ambulance services organized by
             skilled medical professionals and advanced technologies."
           </p>
-        </motion.div>
+        </div>
 
         {/* Social Links Div */}
-        <motion.div
-          className="heading-social-links-div"
-          initial={{ opacity: 0 }}
-          whileInView={{
-            opacity: 1,
-            transition: {
-              duration: 2,
-            },
-          }}
-        >
+        <div
+          className="heading-social-links-div">
           {socialMediaLinks &&
             socialMediaLinks.map((sociallink, index) => (
               <a
@@ -56,28 +40,15 @@ const Heading = () => {
               </a>
             ))}
           <a href="" className="btn">Explore</a>
-        </motion.div>
+        </div>
       </div>
 
       {/* Ambuvians Image Div - Right Side Content */}
       <div>
         <img src={IllusBG} alt="" className="rotate 2xl:w-[619px] xl:w-[550px] lg:w-[430px] xl:top-[20px] lg:top-[30px] absolute lg:flex hidden top-0 2xl:left-[760px] xl:left-[650px] lg:left-[580px] -z-0" />
-        <motion.div className="heading-ambuvians-image-div"
-          initial={{ opacity: 0, scale: 0.8 }}
-          whileInView={{ opacity: 1, scale: 1 }}
-          transition={{
-            duration: 0.4,
-            ease: [0, 0.71, 0.2, 1.01],
-            scale: {
-              type: "spring",
-              damping: 6,
-              stiffness: 100,
-              restDelta: 0.001,
-            },
-          }}
-        >
+        <div className="heading-ambuvians-image-div">
           <img src={AmbuviansImage} alt="Ambuvians Image" className="heading-ambuvians-image" />
-        </motion.div>
+        </div>
       </div>
     </div>
   );
