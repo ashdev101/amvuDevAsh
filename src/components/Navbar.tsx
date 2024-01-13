@@ -22,14 +22,14 @@ const Navbar = () => {
   }
 
   return (
-    <nav className="lg:h-[86px] md:h-[70px] h-[60px] min-w-full lg:py-[30px] pt-[0] px-[5px] lg:bg-white bg-[#E7E7E7] sticky top-0 left-0 z-50">
+    <nav className="lg:h-[86px] md:h-[70px] h-[60px] min-w-full lg:pt-[10px] px-[5px] lg:bg-white bg-[#E7E7E7] sticky top-0 left-0 z-50">
       <div className="h-full w-full">
-        <div className=" float-left flex justify-center items-center ml-[5%] h-full">
-          <a href={"/"}><img className="xl:w-[180px] lg:w-[150px] md:w-[120px]  w-[80px] xl:h-[90px] lg:h-[60px] md:h-[50px] h-[40px] lg:mt-[7px]" src={Logo} alt="Ambuvians" /></a>
+        <div className=" float-left flex ml-[5%] h-full">
+          <a href={"/"}><img className="xl:w-[154px] lg:w-[150px] md:w-[120px] w-[80px] xl:h-[74px] lg:h-[60px] md:h-[50px] h-[40px] pb-[10px]" src={Logo} alt="Ambuvians" /></a>
         </div>
 
         {/* NavLinks For Desktop */}
-        <div className="float-right h-full w-[80%] justify-evenly  items-center lg:flex hidden">
+        <div className="float-right h-full w-[80%] justify-evenly pt-[8px]  items-center md:flex hidden">
           {
             NavLinks && NavLinks.map((link, index) => (
               <Link
@@ -46,7 +46,7 @@ const Navbar = () => {
         </div>
 
         {/* NavLinks For Mobile */}
-        <div className="float-right h-full w-[20%] justify-evenly  items-center lg:hidden flex">
+        <div className="float-right h-full w-[20%] justify-evenly  items-center md:hidden flex">
           <a href="" className="sm:text-[30px] text-[20px]"><FaUser /></a>
           <button className="sm:text-[40px] text-[25px]" onClick={toggleFunction}>
             <RxHamburgerMenu />
