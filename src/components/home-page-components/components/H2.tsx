@@ -1,7 +1,5 @@
 import React from 'react'
-//import { motion } from "framer-motion"
 import "../../../styles/home-styles/home.css"
-
 interface H2PropsTypes {
     text: string
 }

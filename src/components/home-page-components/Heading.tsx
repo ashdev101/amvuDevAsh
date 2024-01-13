@@ -1,7 +1,7 @@
 import "../../styles/home-styles/heading.css";
 import { socialMediaLinks } from "../../utils/home-utils/homeUtils";
 import { AmbuviansImage, IllusBG } from "../../utils/home-utils/images";
-//import { motion } from "framer-motion";
+ 
 
 
 const Heading = () => {

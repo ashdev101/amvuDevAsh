@@ -1,6 +1,5 @@
 import { statisticsImageAndText } from "../../utils/home-utils/homeUtils";
 import "../../styles/home-styles/statistics.css";
-//import { motion } from "framer-motion"
 import H2 from "./components/H2";
 const Statistics = () => {
   return (

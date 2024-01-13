@@ -1,7 +1,7 @@
 import { visionCardTextAndImage } from "../../utils/home-utils/homeUtils";
 import "../../styles/home-styles/ourVision.css"
 import H2 from "./components/H2";
-//import { motion } from "framer-motion"
+ 
 const OurVision = () => {
 
 
