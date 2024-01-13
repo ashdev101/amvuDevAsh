@@ -54,31 +54,32 @@ export const socialMediaLinks = [
 /* statistics Image And Text - statistics component  */
 export const statisticsImageAndText = [
   {
-    image: StatisticsImage4,
+    image: StatisticsImage1,
     number: 46328,
     text: "Amblulance",
   },
   {
-    image: StatisticsImage1,
+    image: StatisticsImage2,
     number: 45000,
     text: "Health Personals",
   },
   {
-    image: StatisticsImage5,
+    image: StatisticsImage3,
     number: 100000,
     text: "Patients",
   },
   {
-    image: StatisticsImage2,
+    image: StatisticsImage4,
     number: 76328,
     text: "Health Policies",
   },
   {
-    image: StatisticsImage3,
+    image: StatisticsImage5,
     number: 56328,
     text: "Hospital Tie ups",
   },
 ];
+ 
 
 /* vision Card Text And Image - OurVision component */
 export const visionCardTextAndImage = [

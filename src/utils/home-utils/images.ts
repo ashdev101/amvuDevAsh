@@ -1,9 +1,18 @@
-import AmbuviansImage from "../../assets/HomeAssets/Ambuvians (3508 x 4960 px) 1.svg";
-import StatisticsImage1 from "../../assets/HomeAssets/1.png";
-import StatisticsImage2 from "../../assets/HomeAssets/2.png";
-import StatisticsImage3 from "../../assets/HomeAssets/3.png";
-import StatisticsImage4 from "../../assets/HomeAssets/4.png";
-import StatisticsImage5 from "../../assets/HomeAssets/5.png";
+const AmbuviansImage =
+  "https://res.cloudinary.com/dvkfio4zq/image/upload/v1704709552/upload/ambuvians/qjhkokel45tng1op1daw.svg";
+
+/* Statistics Images */
+const StatisticsImage1 =
+  "https://res.cloudinary.com/dvkfio4zq/image/upload/v1705124233/upload/ambuvians/sygvxmbksfbjtcfzslg7.svg";
+const StatisticsImage2 =
+  "https://res.cloudinary.com/dvkfio4zq/image/upload/v1705124689/upload/ambuvians/cmlcmf2ht6myxqdexbjl.png";
+const StatisticsImage3 =
+  "https://res.cloudinary.com/dvkfio4zq/image/upload/v1705124770/upload/ambuvians/xad610lyrn26wut7jzle.png";
+const StatisticsImage4 =
+  "https://res.cloudinary.com/dvkfio4zq/image/upload/v1705124894/upload/ambuvians/ftiue0a7mm2wxvvymyh3.png";
+const StatisticsImage5 =
+  "https://res.cloudinary.com/dvkfio4zq/image/upload/v1705124999/upload/ambuvians/oboht2ab0qmpyhcfqf5p.png";
+
 import DoctorIcon from "../../assets/HomeAssets/doctor-icon.png";
 import Service1 from "../../assets/HomeAssets/service1.png";
 import Service2 from "../../assets/HomeAssets/service2.png";
