@@ -29,7 +29,7 @@ const Navbar = () => {
         </div>
 
         {/* NavLinks For Desktop */}
-        <div className="float-right h-full w-[80%] justify-evenly pt-[8px]  items-center md:flex hidden">
+        <div className="float-right h-full w-[80%] justify-evenly pt-[8px]  items-center xl:flex hidden">
           {
             NavLinks && NavLinks.map((link, index) => (
               <Link
@@ -46,7 +46,7 @@ const Navbar = () => {
         </div>
 
         {/* NavLinks For Mobile */}
-        <div className="float-right h-full w-[20%] justify-evenly  items-center md:hidden flex">
+        <div className="float-right h-full w-[20%] justify-evenly  items-center xl:hidden flex">
           <a href="" className="sm:text-[30px] text-[20px]"><FaUser /></a>
           <button className="sm:text-[40px] text-[25px]" onClick={toggleFunction}>
             <RxHamburgerMenu />
