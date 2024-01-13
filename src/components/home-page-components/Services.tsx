@@ -52,19 +52,17 @@ const Services = () => {
 
                 {/* Servise Component right side  */}
                 <div className="services-right-side-div">
-                    <div className="xl:w-[484.08px] w-[100%]  mt-[20px] mr-[15px]">
-                        <h3 className=" w-full  text-[#DC1F27] font-[700] xl:text-[39px] md:text-[30px] text-[22px] md:leading-[55px] leading-[30px]">
+                    <div className="2xl:w-[484.08px] lg:w-[80%] w-[100%]  mt-[20px] mr-[15px]">
+                        <h3 className=" w-full  text-[#DC1F27] font-[700] 2xl:text-[39px] md:text-[30px] ml-[15px] text-[22px] md:leading-[55px] leading-[30px]">
                             Your Wellness, Our Priority: Streamlined Solutions for Modern Healthcare
                         </h3>
-                        <p className=" text-justify md:w-[472.08px] w-[80%]  text-[14px] font-[400] leading-[20px] ml-[15px] mt-[25px] text-[#425066]">
+                        <p className=" text-justify 2xl:w-[472.08px] w-[80%]  text-[14px] font-[400] leading-[20px] ml-[15px] mt-[25px] text-[#425066]">
                             With the advent of telemedicine, you can now consult doctors from the comfort of your home. This convenient and accessible approach to healthcare allows you to receive medical advice, prescriptions, and even treatment recommendations without the need for in-person visits. It's a game-changer in healthcare, offering convenience and safety.
                         </p>
                     </div>
                     <Button text="Explore" mt={"30px"} ml="30px" />
                 </div>
             </div>
-
-
         </div>
     )
 }

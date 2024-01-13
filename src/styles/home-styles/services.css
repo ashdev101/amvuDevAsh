@@ -1,17 +1,12 @@
- 
-
 .services-left-side-div {
   @apply w-[60%] h-full ml-[39px] relative;
 }
 .services-box {
   @apply lg:w-[465.73px] w-[100%] h-[442.93px] rounded-[10px] border-[0.8px] border-[#DDDDDD] bg-white mt-[50px] BoxShadow relative;
 }
-.services-right-side-div{
+.services-right-side-div {
   @apply 2xl:w-[40%] w-[70%] xl:mr-[39px] 2xl:mt-0  2xl:ml-0 lg:ml-[250px] ml-[50px] mt-[140px];
 }
-
-
-
 
 .BoxShadow {
   box-shadow: 1px 3px 8px rgba(125, 123, 123, 0.301);
