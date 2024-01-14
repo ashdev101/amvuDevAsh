@@ -7,19 +7,19 @@ import { Emails, FollowUsOn, FooterLinks, FooterPolicys, GetTheApp, GmailIcon, L
 const Footer = () => {
 
     return (
-        <footer className='bg-black text-white w-full xl:h-[368px] lg:py-[40px] opacity-100 z-100 relative'>
+        <footer className='bg-black text-white w-full 2xl:h-[368px]  lg:pt-[40px] opacity-100 z-100 relative'>
 
             {/* Heading for Small Devices (dotted border bootom) */}
             <div className="border-b border-dotted border-white/50 lg:hidden flex justify-center items-center pt-[20px] pb-[5px]">
-                <h3 className="md:text-[20px] sm:text-[18px] text-[16px]" style={{fontFamily:"Kadwa"}}> India's First Unified Health Care Services</h3>
+                <h3 className="md:text-[20px] sm:text-[18px] text-[16px]" style={{ fontFamily: "Kadwa" }}> India's First Unified Health Care Services</h3>
             </div>
 
             {/* contanet - (Get The App, Follow Us, Know Us, Services, Contact Us) */}
             <div className='flex justify-evenly xl:ml-[100px] lg:ml-[70px] md:ml-[30px] items-start lg:mt-0 mt-[20px]'>
 
                 {/* Get The App, Follow Us */}
-                <div className="lg:flex hidden flex-col gap-[30px]">
-                    <h3 className="footer-h3 xl:w-full w-[90%] lg:flex hidden" style={{fontFamily:"Kadwa"}}>
+                <div className="lg:flex hidden flex-col gap-[30px] xl:w-[35%] lg:w-[40%]">
+                    <h3 className="footer-h3 xl:w-full lg:w-[80%] w-[90%] lg:flex hidden" style={{ fontFamily: "Kadwa" }}>
                         India's First Unified Health Care Services
                     </h3>
                     {/* Get The App Div */}
@@ -80,7 +80,7 @@ const Footer = () => {
                 </div>
 
                 {/* Contact Us */}
-                <div className="w-[30%]">
+                <div className="sm:w-[30%] w-[40%]">
                     <h3 className="footer-h3">
                         Contact Us
                     </h3>
@@ -114,7 +114,7 @@ const Footer = () => {
             </div>
 
             {/* dotted border : content -  (Terms & Conditions, Privacy Policy, Grievance Redressal Policy, Refund Policy) */}
-            <div className='lg:flex  hidden justify-between xl:h-[48px] items-center ml-[150px] border-t border-dotted border-white/50 mt-[20px] mx-[100px] '>
+            <div className='lg:flex hidden justify-between xl:h-[48px] items-center ml-[150px] py-[10px] border-t border-dotted border-white/50 mt-[20px] mx-[100px] '>
                 <div className=" flex gap-[40px] justify-center items-center h-full">
                     {
                         FooterPolicys && FooterPolicys.map((policy, index) => (
@@ -159,7 +159,7 @@ const Footer = () => {
                 <div className=" flex flex-wrap sm:gap-[10px] gap-[10px] justify-center items-center h-full">
                     {
                         FooterPolicys && FooterPolicys.map((policy, index) => (
-                            <a href={policy.href} key={index} className="text-[10px] font-[400] " >{policy.text}</a>
+                            <Link to={policy.href} key={index} className="text-[10px] font-[400] " >{policy.text}</Link>
                         ))
                     }
                 </div>

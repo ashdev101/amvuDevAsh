@@ -70,7 +70,7 @@ export const PhoneNumbers = ["7505853812", "8630729931"];
 
 export const FooterPolicys = [
   {
-    href: "",
+    href: "/terms-and-conditions",
     text: "Terms & Conditions",
   },
 
