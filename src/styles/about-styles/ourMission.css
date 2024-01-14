@@ -1,0 +1,90 @@
+/* Ellipse01 - Ellipse Div , Images and Animation a*/
+
+.our-mission-ellipse-ring-first {
+  @apply 2xl:w-[600px] xl:w-[530px] lg:w-[450px] md:w-[380px] 2xl:h-[600px] xl:h-[530px] lg:h-[450px] md:h-[380px] border-[2px] border-[#D7D7EB] rounded-full m-[30px] flex justify-center items-center relative;
+  animation: rotateEllipse 20s infinite ease-in-out;
+}
+
+.our-mission-patient-image-div {
+  @apply absolute top-[15%] right-[1%] bg-[#3ADAD9]/20 rounded-full h-[15%] w-[15%] flex justify-center items-center;
+  animation: rotateImg 20s infinite ease-in-out;
+}
+.our-mission-ambulance-image-div {
+  @apply absolute top-[60%] left-[-3%] rounded-full h-[15%] w-[15%] flex justify-center items-center;
+  animation: rotateImg 20s infinite ease-in-out;
+}
+
+.our-mission-blue-dot {
+  @apply bg-[#4A81EC] w-[1.4%] h-[1.4%] absolute left-[10%] top-[10%] rounded-full;
+}
+.our-mission-light-blue-dot {
+  @apply bg-[#64B7F3] w-[3%] h-[3%] absolute left-[-6%] top-[65%] rounded-full;
+}
+.our-mission-pink-dot {
+  @apply bg-[#F3648F] w-[2.8%] h-[2.8%] absolute right-[-6%] top-[55%] rounded-full;
+}
+.our-mission-orange-dot {
+  @apply bg-[#e6582c] w-[1%] h-[1%] absolute right-[23%] top-[15%] rounded-full;
+}
+.our-mission-yellow-dot {
+  @apply bg-[#ECC84A] w-[2.5%] h-[2.5%] absolute left-[20%] top-[35%] rounded-full;
+}
+.our-mission-green-dot {
+  @apply bg-[#3ED37A] w-[1.9%] h-[1.9%] absolute left-[54%] top-[79%] rounded-full;
+}
+.our-mission-fastest {
+  @apply bg-[#fff] z-50 flex pl-[1%] items-center gap-[3%] shadow-sm shadow-slate-400 w-[38%] h-[12%] absolute left-[54%] top-[79%] rounded-md;
+  animation: rotateImg 20s infinite ease-in-out;
+}
+
+/* Ellipse02 - Ellipse Div and Images */
+.our-mission-ellipse-ring-second {
+  @apply 2xl:w-[450px] xl:w-[350px] lg:w-[300px] md:w-[240px] 2xl:h-[450px] xl:h-[350px] lg:h-[300px] md:h-[240px] border-[2px] border-[#D7D7EB] rounded-full m-[30px] flex justify-center items-center relative;
+}
+
+.our-mission-bulb-with-two-personIcons-image-div-first {
+  @apply absolute top-[80%] left-[10%] rounded-full h-[15%] w-[15%] flex justify-center items-center;
+  animation: rotateImg 20s infinite ease-in-out;
+}
+.our-mission-bulb-with-two-personIcons-image-div-second {
+  @apply absolute top-[44%] right-[4%] rounded-full h-[10%] w-[10%] flex justify-center items-center;
+  animation: rotateImg 20s infinite ease-in-out;
+}
+.our-mission-business-presentation-image-div {
+  @apply absolute top-[0%] left-[20%] bg-[#EDF1FF] rounded-full h-[15%] w-[15%] flex justify-center items-center;
+  animation: rotateImg 20s infinite ease-in-out;
+}
+
+/* Ellipse03 - Ellipse Div and Images */
+.our-mission-ellipse-ring-third {
+  @apply 2xl:w-[280px] xl:w-[200px] lg:w-[150px] md:w-[100px] 2xl:h-[280px] xl:h-[200px] lg:h-[150px] md:h-[100px] border-[2px] border-[#D7D7EB] rounded-full m-[30px] flex items-center justify-center relative;
+}
+.our-mission-doctor-icon {
+  @apply w-[70%] h-[100%] absolute object-cover;
+  animation: rotateImg 20s infinite ease-in-out;
+}
+.our-mission-meeting-image-div {
+  @apply absolute top-[40%] left-[-7%] bg-[#FD9B79]/30 rounded-full h-[17%] w-[17%] flex justify-center items-center;
+  animation: rotateImg 20s infinite ease-in-out;
+}
+.our-mission-hospital-image-div {
+  @apply absolute top-[10%] right-[-13%] rounded-full h-[35%] w-[35%] flex justify-center items-center;
+  animation: rotateImg 20s infinite ease-in-out;
+}
+
+@keyframes rotateEllipse {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+@keyframes rotateImg {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
