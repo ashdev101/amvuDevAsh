@@ -1,0 +1,32 @@
+.discover-more {
+  background: linear-gradient(#60bbee, #0a72ad);
+  pad: 20px 40px;
+  @apply text-[white] xl:w-[196px] lg:w-[150px] md:w-[125px] sm:w-[100px] w-[90px] xl:h-[64px] lg:h-[40px] md:h-[35px] sm:h-[30px] h-[22px] 2xl:text-[16px] xl:text-[15px] lg:text-[14px] md:text-[13px] sm:text-[12px] text-[11px] font-[600] flex justify-center items-center absolute top-[86%] 2xl:left-[13%] md:left-[17%] left-[16%];
+}
+
+.at-kiet {
+  @apply flex justify-center items-center gap-[5%] xl:w-[236px] lg:w-[200px] md:w-[170px] sm:w-[140px] w-[120px]  xl:h-[116px] lg:h-[100px] md:h-[85px] sm:h-[70px] h-[55px] bg-white rounded-3xl absolute 2xl:left-0 sm:left-[6%] left-[60%] sm:top-[58%] top-[5%];
+}
+.at-kiet-image {
+  @apply xl:w-[80px] lg:w-[70px] md:w-[60px] sm:w-[50px] w-[40px] xl:h-[80px] lg:h-[70px] md:h-[60px] sm:h-[50px] h-[40px];
+}
+.at-kiet-text {
+  @apply xl:text-[22px] lg:text-[20px] md:text-[18px] sm:text-[16px] text-[14px] font-[500];
+}
+
+.arriving-soon {
+  @apply lg:flex hidden justify-center items-center gap-[5%] xl:w-[236px] lg:w-[200px] md:w-[170px] sm:w-[140px] w-[120px]  xl:h-[116px] lg:h-[100px] md:h-[85px] sm:h-[70px] h-[55px] bg-white rounded-3xl absolute left-[27%] sm:top-[20%] top-[13%];
+}
+.arriving-soon-image {
+  @apply xl:w-[100px] lg:w-[90px] md:w-[60px] sm:w-[50px] w-[40px] xl:h-[100px] lg:h-[90px] md:h-[60px] sm:h-[50px] h-[40px];
+}
+
+.message-box-div {
+  @apply md:flex hidden absolute top-[4%] left-[59%];
+}
+.message-box-div-inner {
+  @apply xl:w-[314px] lg:w-[250px] xl:h-[158px] lg:h-[130px] relative;
+}
+.message-box {
+  @apply absolute w-full h-full;
+}

@@ -1,0 +1,6 @@
+.team-card-container {
+  @apply flex flex-nowrap items-center overflow-x-auto w-full px-[10px] h-fit  z-20 lg:mt-[20px] mt-[10px] mb-[50px];
+}
+.team-card-container::-webkit-scrollbar {
+  @apply hidden;
+}

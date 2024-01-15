@@ -1,0 +1,30 @@
+.team-card {
+  @apply bg-[#ffffff] rounded-[1px] pt-[10px] mx-[19px] flex flex-col items-center md:border-[2px] border-[6px] md:border-[#DCDCDC] border-[#000]  xl:w-[310px] xl:min-w-[310px] lg:w-[280px] lg:min-w-[280px] md:w-[250px] md:min-w-[250px] sm:w-[200px] sm:min-w-[200px] min-w-[192px] w-[192px] xl:h-[447px] lg:h-[400px] md:h-[350px] sm:h-[300px] h-[269px];
+}
+
+.team-member-image {
+  @apply w-[100%] h-[100%] object-cover absolute top-0 left-0;
+}
+
+.team-member-image-frame {
+  @apply w-[100%] h-[100%] absolute mix-blend-screen;
+}
+
+.team-member-name {
+  @apply w-[90%] h-[3%] mt-[20px] font-[600] lg:text-[18px] md:text-[16px] sm:text-[14px] text-[12px]  text-[#282828] text-center capitalize;
+}
+
+.team-member-title {
+  @apply mt-[16px] md:h-[5%] w-[70%] h-[8%]  overflow-auto text-[#3E3E59] text-center xl:text-[13px] lg:text-[12px] md:text-[11px] text-[10px]  relative;
+}
+
+.team-member-about {
+  @apply capitalize text-center xl:w-[70%] lg:w-[75%] md:w-[80%] sm:w-[85%] w-[97%]  h-[20%] text-[#84829A] font-[400] xl:text-[14px] lg:text-[13px] md:text-[12px] sm:text-[11px] text-[10px] mt-[10px] lg:leading-[26px] overflow-auto relative;
+}
+.team-member-social-div {
+  @apply flex justify-center xl:gap-[25px] gap-[10px]  items-center lg:mt-[15px] mt-[2%] py-[6%];
+}
+
+.team-member-social-link {
+  @apply  flex justify-center items-center rounded-full bg-[#252525]   text-[white] text-[18px] hover:scale-110 transition-all duration-300 xl:w-[36px] lg:w-[33px] md:w-[30px] sm:w-[28px] w-[25px] xl:h-[36px] lg:h-[33px] md:h-[30px] sm:h-[28px] h-[25px] ;
+}
