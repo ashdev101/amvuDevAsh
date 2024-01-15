@@ -25,7 +25,7 @@ const Navbar = () => {
     <nav className="lg:h-[86px] md:h-[70px] h-[60px] min-w-full lg:pt-[10px] px-[5px] lg:bg-white bg-[#E7E7E7] sticky top-0 left-0 z-50">
       <div className="h-full w-full">
         <div className=" float-left flex ml-[5%] h-full">
-          <a href={"/"}><img className="xl:w-[154px] lg:w-[150px] md:w-[120px] w-[80px] xl:h-[74px] lg:h-[60px] md:h-[50px] h-[40px] pb-[10px]" src={Logo} alt="Ambuvians" /></a>
+          <a href={"/"}><img className="xl:w-[154px] md:w-[120px] w-[80px] xl:h-[74px] lg:h-[60px] md:h-[60px] h-[50px] lg:pb-[10px] lg:pt-0 pt-[12px]" src={Logo} alt="Ambuvians" /></a>
         </div>
 
         {/* NavLinks For Desktop */}
