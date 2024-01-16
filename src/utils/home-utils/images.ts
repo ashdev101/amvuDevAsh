@@ -71,14 +71,6 @@ const Vactor3 =
 const Vactor4 =
   "https://res.cloudinary.com/dvkfio4zq/image/upload/v1704709558/upload/ambuvians/lpchurttbukqmvpyc2xc.svg";
 
-/* Our Mentors  */
-const Gmail =
-  "https://res.cloudinary.com/dvkfio4zq/image/upload/v1705131458/upload/ambuvians/ceiufmr7xyhyjbcfq2sz.svg";
-const Linkedin =
-  "https://res.cloudinary.com/dvkfio4zq/image/upload/v1705131522/upload/ambuvians/le22rxkfzuavgo1ppaog.svg";
-const Instagram =
-  "https://res.cloudinary.com/dvkfio4zq/image/upload/v1705131569/upload/ambuvians/beebcnok5sxdpmqhw4hw.svg";
-
 /* Our Partners */
 const Teific =
   "https://res.cloudinary.com/dvkfio4zq/image/upload/v1704709556/upload/ambuvians/poflyquili9g8klacvdr.svg";
@@ -93,17 +85,24 @@ const StRCCS =
 const Customer =
   "https://res.cloudinary.com/dvkfio4zq/image/upload/v1705131938/upload/ambuvians/di6w0bm7ioml0opxxgt7.png";
 
+/* Our Mentors  */
+const Gmail =
+  "https://res.cloudinary.com/dvkfio4zq/image/upload/v1705131458/upload/ambuvians/ceiufmr7xyhyjbcfq2sz.svg";
+const Linkedin =
+  "https://res.cloudinary.com/dvkfio4zq/image/upload/v1705131522/upload/ambuvians/le22rxkfzuavgo1ppaog.svg";
+const Instagram =
+  "https://res.cloudinary.com/dvkfio4zq/image/upload/v1705131569/upload/ambuvians/beebcnok5sxdpmqhw4hw.svg";
 /* Team Photo */
 const DrManojGoel =
   "https://res.cloudinary.com/dvkfio4zq/image/upload/v1705079977/upload/ambuvians/sfqgcbxs4yv6kabjqfrp.png";
 const MrRohitSharma =
-  "https://res.cloudinary.com/dvkfio4zq/image/upload/v1705079977/upload/ambuvians/rejg2gtshjk5p77yg3v9.png";
+  "https://res.cloudinary.com/dvkfio4zq/image/upload/v1705079979/upload/ambuvians/jp4xgvd0qsbfcehbo13w.png";
 const DrVineetSharma =
-  "https://res.cloudinary.com/dvkfio4zq/image/upload/v1705079977/upload/ambuvians/arfqsxssgnsys7wrzdss.png";
+  "https://res.cloudinary.com/dvkfio4zq/image/upload/v1705079977/upload/ambuvians/ld4y3ik7imy4bet4xbww.png";
 const SauravKumar =
-  "https://res.cloudinary.com/dvkfio4zq/image/upload/v1705079978/upload/ambuvians/a5eat9lttws7xtr5gw3z.png";
+  "https://res.cloudinary.com/dvkfio4zq/image/upload/v1705079978/upload/ambuvians/ldas8mzfewaosdmarfqh.png";
 const DrRahat =
-  "https://res.cloudinary.com/dvkfio4zq/image/upload/v1705079977/upload/ambuvians/y4rrthnooyykasbttwjj.png";
+  "https://res.cloudinary.com/dvkfio4zq/image/upload/v1705079977/upload/ambuvians/xw54rsbhdqpos62zznuz.jpg";
 
 export {
   AmbuviansImage,
