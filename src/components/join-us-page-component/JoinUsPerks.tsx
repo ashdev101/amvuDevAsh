@@ -1,5 +1,5 @@
 import "../../styles/join-us-styles/joinUsPerks.css"
-import { Perks, Process } from "../../utils/join-us-utils/joinUsUtils"
+import { Perks } from "../../utils/join-us-utils/joinUsUtils"
 import PerksCard from "./components/PerksCard"
 const JoinUsPerks = () => {
     return (
