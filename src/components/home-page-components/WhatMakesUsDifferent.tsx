@@ -11,7 +11,7 @@ const WhatMakesUsDifferent = () => {
             <div className="w-full h-full flex justify-center items-center">
 
                 {/* left side content */}
-                <div className="2xl:w-[50%] lg:w-[62%] md:w-[82%] w-full flex flex-col  2xl:items-center  items-center">
+                <div className="2xl:w-[50%] lg:w-[62%] md:w-[82%] w-full flex flex-col  2xl:items-center  items-center bg-slate-900">
                     <h3 className="what-makes-us-different-h3">
                         Experience the all in one portal for all your needs like
                     </h3>
@@ -36,17 +36,8 @@ const WhatMakesUsDifferent = () => {
                 </div>
 
                 {/* Right side content */}
-                <div className="2xl:w-[50%] xl:w-[50%] 2xl:flex hidden">
-                    <div className="2xl:w-[689px] w-full 2xl:h-[619px] h-full m-auto relative">
-                        <img src={IllusBG} alt="" className="rotate 2xl:w-[549.37px] w-[400px] 2xl:h-[551.72px] h-[400px] absolute top-[10%] left-[30px] z-10" />
-                        <div className="w-[623px] h-[353px] absolute 2xl:top-[25%] top-[16%] 2xl:left-[10px] left-[-18px] z-30 flex justify-center items-center">
-                            <div className="flex h-full w-full relative justify-between items-center">
-                                <img src={User} alt="" className="2xl:w-[141px] w-[100px] 2xl:h-[339px] h-[300px] z-20" />
-                                <img src={DashboardWithPhone} alt="" className="2xl:w-[550px] w-[450px] 2xl:h-[400px] h-[300px] absolute left-[12%] z-10 " />
-                            </div>
-                        </div>
-                        {/*  <div className="ellipse z-30"></div> */}
-                    </div>
+                <div className="lg:w-[50%] h-[300px] lg:flex hidden bg-slate-700">
+
                 </div>
 
             </div>
@@ -55,3 +46,15 @@ const WhatMakesUsDifferent = () => {
 }
 
 export default WhatMakesUsDifferent
+
+
+/*   <div className="2xl:w-[689px] w-full 2xl:h-[619px] h-full m-auto relative">
+                        <img src={IllusBG} alt="" className="rotate 2xl:w-[549.37px] w-[400px] 2xl:h-[551.72px] h-[400px] absolute top-[10%] left-[30px] z-10" />
+                        <div className="w-[623px] h-[353px] absolute 2xl:top-[25%] top-[16%] 2xl:left-[10px] left-[-18px] z-30 flex justify-center items-center">
+                            <div className="flex h-full w-full relative justify-between items-center">
+                                <img src={User} alt="" className="2xl:w-[141px] w-[100px] 2xl:h-[339px] h-[300px] z-20" />
+                                <img src={DashboardWithPhone} alt="" className="2xl:w-[550px] w-[450px] 2xl:h-[400px] h-[300px] absolute left-[12%] z-10 " />
+                            </div>
+                        </div>
+                        </div > * /
+                        {/*  <div className="ellipse z-30"></div> */

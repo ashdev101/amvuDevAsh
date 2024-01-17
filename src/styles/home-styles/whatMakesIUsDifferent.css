@@ -12,7 +12,7 @@
 }
 
 .what-makes-us-different-h3 {
-  @apply text-[#DC1F27] 2xl:w-[510px] md:w-[450px] sm:w-[350px] w-[310px] font-[700] 2xl:text-[39px] md:text-[30px] text-[22px]  md:leading-[55px] sm:leading-[35px] leading-[30px] 2xl:ml-[130px] xl:ml-[100px] md:ml-[0px] sm:ml-[20px] ml-[50px] mt-[40px];
+  @apply text-[#DC1F27] 2xl:w-[510px] md:w-[450px] sm:w-[350px] w-[310px] font-[700] 2xl:text-[39px] md:text-[30px] text-[22px]  md:leading-[55px] sm:leading-[35px] leading-[30px] 2xl:ml-[130px] xl:ml-[100px] md:ml-[0px] sm:ml-[20px] ml-[50px] mt-[40px] lg:text-start text-center; 
 }
 
 .what-make-us-benefites-container {

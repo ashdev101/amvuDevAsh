@@ -1,12 +1,12 @@
-import "../../styles/join-us-styles/joinUsProcess.css"
-import { ApplicationDate, Process } from "../../utils/join-us-utils/joinUsUtils"
+import "../../styles/campus-ambassador-styles/campusAmbassadorProcess.css"
+import { ApplicationDate, Process } from "../../utils/campus-utils/campusUtils"
 import ProcessCard from "./components/ProcessCard"
 import { format } from "date-fns";
 
-const JoinUsProcess = () => {
+const CampusAmbassadorProcess = () => {
     return (
         <div className='mt-[30px]'>
-            <h2 className='join-us-all-headings'>Process</h2>
+            <h2 className='campus-all-headings'>Process</h2>
 
             <div className="process-card-container">
                 <div className="process-card">
@@ -36,4 +36,4 @@ const JoinUsProcess = () => {
     )
 }
 
-export default JoinUsProcess
+export default CampusAmbassadorProcess
