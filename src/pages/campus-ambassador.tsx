@@ -3,7 +3,7 @@ import CampusAmbassadorPerks from "../components/campus-ambassador-component/Cam
 import CampusAmbassadorProcess from "../components/campus-ambassador-component/CampusAmbassadorProcess";
 import CampusAmbassadorTop from "../components/campus-ambassador-component/CampusAmbassadorTop";
 import JoinOurTeam from "../components/campus-ambassador-component/JoinOurTeam";
-import "../styles/campus-ambassador-styles/CampusAmbassador.css";
+import "../styles/campus-ambassador-styles/campusAmbassador.css";
 
 const CampusAmbassador = () => {
     return (
