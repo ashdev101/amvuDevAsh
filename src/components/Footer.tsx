@@ -55,7 +55,7 @@ const Footer = () => {
                     <div className="flex flex-col justify-center items-center lg:gap-[31px] md:gap-[20px] sm:gap-[15px] gap-[12px] lg:mt-[35px] md:mt-[20px] mt-[15px]">
                         {
                             FooterLinks && FooterLinks.map((link, index) => (
-                                <Link to={link.href} key={index} className="xl:text-[16px] lg:text-[15px] md:text-[13px] sm:text-[12px] text-[10px] font-[700] ">
+                                <Link to={link.href} key={index} className="xl:text-[16px] lg:text-[15px] md:text-[13px] sm:text-[12px] text-[10px] font-[100] ">
                                     {link.text}
                                 </Link>
                             ))
@@ -71,7 +71,7 @@ const Footer = () => {
                     <div className="flex flex-col justify-center items-center lg:gap-[31px] md:gap-[20px] sm:gap-[15px] gap-[12px] lg:mt-[35px] md:mt-[20px] mt-[15px]">
                         {
                             ServicesFooter && ServicesFooter.map((service, index) => (
-                                <p key={index} className="xl:text-[16px] lg:text-[15px] md:text-[13px] sm:text-[12px] text-[10px] font-[700] ">
+                                <p key={index} className="xl:text-[16px] lg:text-[15px] md:text-[13px] sm:text-[12px] text-[10px] font-[100] ">
                                     {service}
                                 </p>
                             ))
@@ -87,7 +87,7 @@ const Footer = () => {
                     <div className="flex flex-col  items-start sm:gap-[10px] gap-[2px] lg:mt-[35px] md:mt-[20px] mt-[15px]">
                         <div className="flex md:gap-[20px] gap-[10px] md:w-[80%] w-[100%]">
                             <img src={LocationIcon} alt="" className="contact-us-icons" />
-                            <p className="contact-us-content " >{Location}</p>
+                            <p className="contact-us-content" >{Location}</p>
                         </div>
                         <div className="flex md:gap-[20px] gap-[10px] md:w-[80%] w-[100%]">
                             <img src={GmailIcon} alt="" className="contact-us-icons" />
@@ -128,7 +128,7 @@ const Footer = () => {
             </div>
 
             {/*  Get The App, Follow Us For Small Devices   */}
-            <div className="flex lg:hidden mt-[30px] justify-evenly ml-[10%] mr-[10%]  gap-[30px]">
+            <div className="flex lg:hidden mt-[10px] justify-evenly ml-[10%] mr-[10%]  gap-[30px]">
                 <div className="flex flex-col w-[50%] gap-[10px]">
                     <h3 className='footer-h3'>Follow us on</h3>
                     <div className="flex gap-[10%]">
@@ -152,7 +152,7 @@ const Footer = () => {
             </div>
 
             {/* content for small Devices -  (Terms & Conditions, Privacy Policy, Grievance Redressal Policy, Refund Policy) */}
-            <div className='flex  lg:hidden justify-between xl:h-[48px] items-center md:ml-[50px] ml-[16px] mx-[5px] py-[20px]'>
+            <div className='flex  lg:hidden justify-between xl:h-[48px] items-center md:ml-[50px] ml-[16px] sm:mx-[25px] py-[20px]'>
                 <div className="">
                     <p className="lg:text-[20px] md:text-[16px] sm:text-[14px] text-[13px]"><span className="]">©</span> AMBUvians Healthcare Pvt. Ltd.</p>
                 </div>
