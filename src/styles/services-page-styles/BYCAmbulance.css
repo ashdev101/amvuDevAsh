@@ -1,0 +1,26 @@
+.BYCA-para {
+  @apply text-[#1B2534] font-[700] capitalize xl:text-[35px] lg:text-[30px] md:text-[25px] text-[20px];
+}
+
+.BLS-ALS-div {
+  box-shadow: 2px 2px 19px rgba(0, 0, 0, 0.186);
+  @apply xl:h-[250px] lg:h-[230px] md:h-[200px] sm:h-[155px] h-[100px] md:w-[23%] w-[40%] rounded-[20px] bg-[#fff] flex flex-col justify-evenly pl-[3%];
+}
+
+.BYC-Ambulance-div {
+  box-shadow: 2px 2px 19px rgba(0, 0, 0, 0.186);
+  @apply xl:h-[250px] lg:h-[230px] md:h-[200px] sm:h-[155px] h-[130px] md:w-[45%] w-[85%] rounded-[20px] bg-white;
+}
+.BYC-Ambulance-h2 {
+  @apply text-[#1B2534] xl:text-[30px] lg:text-[25px] md:text-[20px] sm:text-[20px] text-[16px] text-center font-[700]  xl:w-full sm:w-[80%] w-[71%] capitalize;
+}
+.BYC-Ambulance-link {
+  @apply xl:text-[22px] lg:text-[18px] md:text-[16px] sm:text-[14px] text-[12px] text-white font-[500] py-[10px] text-center w-[30%] bg-[#FA0F39] rounded-[15px] xl:mt-[5%] sm:mt-[4%] mt-0;
+}
+.BYCA-callus-icons {
+  @apply xl:w-[80px] lg:w-[70p] md:w-[60px] sm:w-[50px] w-[40px];
+}
+.BYCA-message-icons {
+  @apply xl:w-[55px] lg:w-[45p] md:w-[40px] sm:w-[33px] w-[27px] sm:mr-[6px];
+}
+ 

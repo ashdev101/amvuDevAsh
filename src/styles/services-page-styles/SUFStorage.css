@@ -1,0 +1,16 @@
+/* Left Side Content styling */
+.SUFStorage-left-container {
+  @apply lg:w-[50%] md:w-[50%] w-full;
+}
+.SUFStorage-left-container-h2 {
+  @apply text-[#1B2534] font-[900] capitalize 2xl:text-[65px] xl:text-[60px] lg:text-[49px] md:text-[45px] sm:text-[35px] text-[25px] leading-[128%] p-[5%] md:text-start text-center;
+}
+.SUFStorage-left-container-p {
+  @apply text-[#606060] 2xl:text-[22px] xl:text-[20px] lg:text-[18px] md:text-[16px] sm:text-[14px] text-[12px] md:p-[5%] sm:px-[3%] px-[4%] leading-[150%] font-[400] w-[95%] md:text-start text-center;
+}
+
+/* Right Side Content Styling */
+.SUFStorage-right-container {
+  background: linear-gradient(117deg, #84d5ff 51.48%, #b4fbf2 104.59%);
+  @apply lg:w-[50%] md:w-[50%] md:mr-[30px] sm:w-[50%] w-[80%]  md:h-[500px] h-[300px] rounded-[40px] relative;
+}
