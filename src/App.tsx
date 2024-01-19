@@ -5,18 +5,11 @@ import About from "./pages/about";
 import CampusAmbassador from "./pages/campus-ambassador";
 import Home from "./pages/home";
 import ServicesPage from "./pages/services";
-import { motion, useScroll } from "framer-motion";
+
 function App() {
-  const { scrollYProgress } = useScroll();
-
-
   return (
     <>
       <BrowserRouter>
-        <motion.div
-          className="progress-bar"
-          style={{ scaleX: scrollYProgress }}
-        />
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
