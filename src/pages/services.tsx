@@ -3,13 +3,11 @@ import SUFStorage from "../components/services-page-components/SUFStorage"
 import ServicesTop from "../components/services-page-components/ServicesTop"
 import StatisitcsService from "../components/services-page-components/StatisitcsService"
 import UISDSVControl from "../components/services-page-components/UI-SDS-VControl"
-import "../styles/services-page-styles/services.css";
-import { BottomImageEight, BottomImageFive, BottomImageFour, BottomImageOne, BottomImageSeven, BottomImageSix, BottomImageThree, BottomImageTwo } from "../utils/services-utils/images"
+import "../styles/services-page-styles/services.css"
+import { BottomImageFive, BottomImageFour, BottomImageOne, BottomImageThree, BottomImageTwo } from "../utils/services-utils/images"
 
 const ServicesPage = () => {
-    const BottomImages = [
-        BottomImageOne, BottomImageTwo, BottomImageThree, BottomImageFour, BottomImageFive, BottomImageSix, BottomImageSeven, BottomImageEight
-    ]
+   
     return (
         <div className="bg-[#F6F6F6]">
             <ServicesTop />
