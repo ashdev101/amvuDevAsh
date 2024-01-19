@@ -2,8 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
-  font-family: 'Poppins', sans-serif;
+* {
+  font-family: "Poppins", sans-serif;
 }
 /* body::-webkit-scrollbar {
   display: none;
@@ -13,7 +13,7 @@
 
   border-radius: 20px 3px;
 }
-.btn:hover{
+.btn:hover {
   border-radius: 3px 20px;
 }
 
@@ -29,5 +29,5 @@
   background: red;
   transform-origin: 0%;
   z-index: 100;
-  @apply  md:h-[7px] h-[5px]
+  @apply md:h-[7px] h-[5px];
 }
