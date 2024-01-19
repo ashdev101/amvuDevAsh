@@ -1,0 +1,35 @@
+.services-bottom-div {
+  background: linear-gradient(
+    227deg,
+    #d9d9d9 42.96%,
+    rgba(243, 16, 75, 0.68) 77.35%
+  );
+  @apply 2xl:h-[1700px] xl:h-[1600px] lg:h-[1400px] md:h-[1000px] sm:h-[800px] h-[600px] w-full mt-[50px] relative;
+}
+
+.services-bottom-div-h2 {
+  @apply 2xl:text-[91px] xl:text-[89px] lg:text-[80px] md:text-[70px] sm:text-[60px] text-[50px] font-[900] leading-[124%] text-[#E9EAF2];
+}
+
+.services-bottom-div-p {
+  @apply text-[#FFDC6C] 2xl:text-[39px] xl:text-[35px] lg:text-[30px] md:text-[25px] sm:text-[20px] text-[18px] font-[900];
+}
+
+.sbi-images {
+  @apply w-[55%];
+}
+.sbi-one {
+  @apply absolute right-[38%] top-0;
+}
+.sbi-two {
+  @apply absolute right-[20%] top-0;
+}
+.sbi-three {
+  @apply absolute right-[0%] top-0;
+}
+.sbi-four {
+  @apply absolute right-[24%] 2xl:top-[28%] xl:top-[27%] lg:top-[26%] md:top-[28%] sm:top-[26%] top-[23%] ;
+}
+.sbi-five {
+  @apply absolute right-[0%] w-[48%] top-[8%];
+}
