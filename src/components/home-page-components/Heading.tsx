@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useRef } from "react";
 import "../../styles/home-styles/heading.css";
 import { socialMediaLinks } from "../../utils/home-utils/homeUtils";
 import { AmbuviansImage, IllusBG } from "../../utils/home-utils/images";
@@ -6,7 +6,7 @@ import { AmbuviansImage, IllusBG } from "../../utils/home-utils/images";
 const Heading = () => {
 
   const containRef = useRef(null);
-  const [isVisible, setIsVisible] = useState(false);
+/*   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
     const observer = new IntersectionObserver((entries) => {
@@ -17,7 +17,7 @@ const Heading = () => {
     return () => {
       if (containRef.current) observer.unobserve(containRef.current)
     }
-  }, [containRef])
+  }, [containRef]) */
    
 
   return (
