@@ -1,5 +1,6 @@
+import ImageSlider from "../../lib/imageSlider";
 import "../../styles/services-page-styles/statisticsService.css";
-import { StatisticsBg1 } from "../../utils/services-utils/images";
+import { StatisticsBg1, StatisticsBg2 } from "../../utils/services-utils/images";
 //import formatNumber from "../../lib/formateNumber";
 const StatisitcsService = () => {
     /*    const statisticsServices = {
@@ -7,10 +8,14 @@ const StatisitcsService = () => {
            professionalDoctors: 200,
            customers: 5300
        } */
+    const images = [
+        StatisticsBg1, StatisticsBg2
+    ]
 
     return (
-        <div className='statistics-service-container'>
-            <img src={StatisticsBg1} alt="statisicts" className="w-full h-full" />
+        <div className='statistics-service-container hideScrollbar'>
+            <ImageSlider images={images} />
+
             {/*    <div className="statistics-service-box">
                 <p className="statistics-service-count">
                     {formatNumber(statisticsServices.medicalCenters)}+

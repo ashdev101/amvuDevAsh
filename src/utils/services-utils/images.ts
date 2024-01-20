@@ -40,6 +40,9 @@ const BottomImageEight =
 const StatisticsBg1 =
   "https://res.cloudinary.com/dvkfio4zq/image/upload/v1705724804/upload/ambuvians/zgkxcpkwm9jnzvlx5cbh.jpg";
 
+const StatisticsBg2 =
+  "https://res.cloudinary.com/dvkfio4zq/image/upload/v1705727930/upload/ambuvians/f87dzoa79uzyurggmm0x.jpg";
+
 export {
   CallUsIcon,
   SmsIcon,
@@ -56,5 +59,6 @@ export {
   BottomImageThree,
   BottomImageTwo,
   BottomImageEight,
-  StatisticsBg1
+  StatisticsBg1,
+  StatisticsBg2,
 };
