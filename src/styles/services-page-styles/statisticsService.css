@@ -1,9 +1,9 @@
 .statistics-service-container {
-  @apply bg-[#FFC4C8] lg:h-[251px] md:h-[200px] sm:h-[170px] h-[130px] lg:w-[90%] w-[95%] overflow-auto m-auto mt-[30px] sm:gap-[20px] gap-[5px] px-[20px] flex lg:justify-evenly justify-between md:items-center;
+  @apply  lg:h-[300px] md:h-[200px] sm:h-[170px] h-[130px] lg:w-[90%] w-[95%] overflow-auto m-auto mt-[30px] sm:gap-[20px] gap-[5px] px-[20px] flex lg:justify-evenly justify-between md:items-center;
 }
 
 .statistics-service-box {
-  @apply flex flex-col md:justify-center items-center md:pt-0 pt-[6%]; 
+  @apply flex flex-col md:justify-center items-center md:pt-0 pt-[6%];
 }
 
 .statistics-service-count {

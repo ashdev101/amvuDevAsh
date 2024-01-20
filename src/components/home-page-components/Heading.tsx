@@ -1,16 +1,31 @@
+import { useEffect, useRef, useState } from "react";
 import "../../styles/home-styles/heading.css";
 import { socialMediaLinks } from "../../utils/home-utils/homeUtils";
 import { AmbuviansImage, IllusBG } from "../../utils/home-utils/images";
- 
-
 
 const Heading = () => {
+
+  const containRef = useRef(null);
+  const [isVisible, setIsVisible] = useState(false);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver((entries) => {
+      const [entry] = entries
+      setIsVisible(entry.isIntersecting)
+    }, { root: null, rootMargin: "0px", threshold: 1.0 })
+    if (containRef.current) observer.observe(containRef.current)
+    return () => {
+      if (containRef.current) observer.unobserve(containRef.current)
+    }
+  }, [containRef])
+   
+
   return (
     <div className="flex relative xl:h-[700px] lg:h-[600px] md:h-[500px] sm:h-[380px] h-[320px]">
 
       {/* Heading and paragraph div - Left Side Content */}
       <div className="w-[50%] flex items-start flex-col relative">
-        <div
+        <div ref={containRef}
         >
           <h1 className="heading-H1">
             Ambuvians <br />

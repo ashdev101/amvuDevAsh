@@ -1,15 +1,17 @@
 import "../../styles/services-page-styles/statisticsService.css";
-import formatNumber from "../../lib/formateNumber";
+import { StatisticsBg1 } from "../../utils/services-utils/images";
+//import formatNumber from "../../lib/formateNumber";
 const StatisitcsService = () => {
-    const statisticsServices = {
-        medicalCenters: 300,
-        professionalDoctors: 200,
-        customers: 5300
-    }
+    /*    const statisticsServices = {
+           medicalCenters: 300,
+           professionalDoctors: 200,
+           customers: 5300
+       } */
 
     return (
         <div className='statistics-service-container'>
-            <div className="statistics-service-box">
+            <img src={StatisticsBg1} alt="statisicts" className="w-full h-full" />
+            {/*    <div className="statistics-service-box">
                 <p className="statistics-service-count">
                     {formatNumber(statisticsServices.medicalCenters)}+
                 </p>
@@ -26,7 +28,7 @@ const StatisitcsService = () => {
                     {formatNumber(statisticsServices.customers)}+
                 </p>
                 <p className="statistics-service-text">Customers</p>
-            </div>
+            </div> */}
         </div>
     )
 }

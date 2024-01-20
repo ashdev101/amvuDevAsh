@@ -4,10 +4,10 @@ import ServicesTop from "../components/services-page-components/ServicesTop"
 import StatisitcsService from "../components/services-page-components/StatisitcsService"
 import UISDSVControl from "../components/services-page-components/UI-SDS-VControl"
 import "../styles/services-page-styles/services.css"
-import { BottomImageFive, BottomImageFour, BottomImageOne, BottomImageThree, BottomImageTwo } from "../utils/services-utils/images"
+import { BottomImageEight, BottomImageFive, BottomImageFour, BottomImageOne, BottomImageSeven, BottomImageSix, BottomImageThree, BottomImageTwo } from "../utils/services-utils/images"
 
 const ServicesPage = () => {
-   
+
     return (
         <div className="bg-[#F6F6F6]">
             <ServicesTop />
@@ -37,6 +37,9 @@ const ServicesPage = () => {
                     <img src={BottomImageThree} alt="image" className="sbi-three sbi-images" />
                     <img src={BottomImageFour} alt="image" className="sbi-four sbi-images" />
                     <img src={BottomImageFive} alt="image" className="sbi-five sbi-images" />
+                    <img src={BottomImageSix} alt="image" className="sbi-six sbi-images" />
+                    <img src={BottomImageSeven} alt="image" className="sbi-seven sbi-images" />
+                    <img src={BottomImageEight} alt="image" className="sbi-eight sbi-images" />
                 </div>
             </div>
         </div>
