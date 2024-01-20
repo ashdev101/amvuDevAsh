@@ -27,9 +27,11 @@ const ImageSlider = ({ images }: { images: string[] }) => {
     }, [])
 
     return (
-        <div className="xl:w-[80%] w-[92%] h-full m-auto flex hideScrollbar pr-[6%]" style={{ display: isVisible ? "flex" : "none" }}>
+        <div className="xl:w-[80%] w-[92%] h-full m-auto flex hideScrollbar" style={{ display: isVisible ? "flex" : "none" }}>
             <button onClick={prevSlide} className='slider-btn'><FcPrevious /> </button>
-            <img src={images[currentIndex]} alt={`Slide ${currentIndex + 1}`} className={direction} />
+          <div className='w-full flex justify-center items-center'>
+          <img src={images[currentIndex]} alt={`Slide ${currentIndex + 1}`} className={direction} />
+          </div>
             <button onClick={nextSlide} className='slider-btn'><FcNext /></button>
         </div>
     );
