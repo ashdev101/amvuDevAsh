@@ -8,7 +8,6 @@ import {
   DrRahat,
   DrVineetSharma,
   Gmail,
-  Instagram,
   KIET,
   Linkedin,
   MrRohitSharma,
@@ -29,7 +28,7 @@ import {
   VisionImage1,
   VisionImage2,
   VisionImage3,
-  VisionImage4,
+  VisionImage4
 } from "./images";
 
 /* social Media Links - Heading Component */
@@ -179,11 +178,7 @@ export const ourMentors = [
         icon: Linkedin,
         alt: "Linkedin",
       },
-      {
-        href: "",
-        icon: Instagram,
-        alt: "Instagram",
-      },
+    
     ],
   },
   {
@@ -203,11 +198,7 @@ export const ourMentors = [
         icon: Linkedin,
         alt: "Linkedin",
       },
-      {
-        href: "",
-        icon: Instagram,
-        alt: "Instagram",
-      },
+      
     ],
   },
   {
@@ -227,11 +218,7 @@ export const ourMentors = [
         icon: Linkedin,
         alt: "Linkedin",
       },
-      {
-        href: "",
-        icon: Instagram,
-        alt: "Instagram",
-      },
+    
     ],
   },
   {
@@ -251,11 +238,7 @@ export const ourMentors = [
         icon: Linkedin,
         alt: "Linkedin",
       },
-      {
-        href: "",
-        icon: Instagram,
-        alt: "Instagram",
-      },
+    
     ],
   },
   {
@@ -275,11 +258,7 @@ export const ourMentors = [
         icon: Linkedin,
         alt: "Linkedin",
       },
-      {
-        href: "",
-        icon: Instagram,
-        alt: "Instagram",
-      },
+    
     ],
   },
 ];
