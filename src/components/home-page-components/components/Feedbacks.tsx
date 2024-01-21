@@ -8,7 +8,7 @@ const Feedbacks = () => {
         <div className="lg:mt-[100px] md:mt-[30px] sm:mt-[50px] mt-[70px] flex flex-col">
             <h1 className="all-home-components-heading-h1">Customer Feedback</h1>
 
-            <div className="mentors-card-container" style={{ marginTop: "50px" }}>
+            <div className="feedback-card-container hideScrollbar" style={{ marginTop: "50px" }}>
                 {
                     customerFeedback.length && customerFeedback.map((feedback, index) => (
                         <FeedbackCard
@@ -21,7 +21,6 @@ const Feedbacks = () => {
                     ))
                 }
             </div>
-
         </div>
     )
 }

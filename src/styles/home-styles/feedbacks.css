@@ -1,4 +1,10 @@
+.feedback-card-container {
+  @apply flex flex-nowrap items-center  overflow-x-auto  w-full py-[20px] h-fit lg:px-[25px] z-20 lg:mt-[100px] mt-[50px];
+}
+
 .feedback-card {
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.204);
-  @apply bg-[#ffffff] rounded-[5px] md:min-w-[360px] md:h-[412px] py-[23px]  p-[16px] mx-[19px];
+  @apply bg-[#ffffff] rounded-[5px] md:min-w-[360px] md:h-[412px] py-[23px] p-[16px] lg:mx-[70px] mx-[15px];
 }
+
+ 
