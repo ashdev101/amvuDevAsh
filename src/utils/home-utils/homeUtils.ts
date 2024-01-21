@@ -28,7 +28,7 @@ import {
   VisionImage1,
   VisionImage2,
   VisionImage3,
-  VisionImage4
+  VisionImage4,
 } from "./images";
 
 /* social Media Links - Heading Component */
@@ -164,7 +164,7 @@ export const ourMentors = [
   {
     image: DrManojGoel,
     name: "Dr. Manoj Goel",
-    experience: "Joint Director of KIET",
+    experience: "Joint Director | KIET,Ghaziabad ",
     about:
       "Meet the Joint Director of KIET, a visionary leader with extensive expertise. Also serving on the Board of Advisors for Ambuvians, guiding strategic growth and innovation in healthcare services.",
     socialMediaLinks: [
@@ -178,13 +178,12 @@ export const ourMentors = [
         icon: Linkedin,
         alt: "Linkedin",
       },
-    
     ],
   },
   {
     image: MrRohitSharma,
     name: "Mr. Rohit Sharma",
-    experience: "Senior Network Engineer from Microsoft",
+    experience: "SNE | Microsoft",
     about:
       "Introducing a Senior Network Engineer from Microsoft, now lending expertise as a Board of Advisor for Ambuvians. Leveraging tech insights to advance healthcare solutions and infrastructure.",
     socialMediaLinks: [
@@ -198,13 +197,12 @@ export const ourMentors = [
         icon: Linkedin,
         alt: "Linkedin",
       },
-      
     ],
   },
   {
     image: DrVineetSharma,
     name: "Dr. Vineet Sharma",
-    experience: "Head of Department for CSE at KIET",
+    experience: "HOD-CSE | KIET,Ghaziabad",
     about:
       "Presenting the Head of Department for CSE at KIET, now a distinguished Board of Advisor for Ambuvians. Bridging academic excellence with innovative healthcare strategies for a brighter future",
     socialMediaLinks: [
@@ -218,13 +216,12 @@ export const ourMentors = [
         icon: Linkedin,
         alt: "Linkedin",
       },
-    
     ],
   },
   {
     image: SauravKumar,
     name: "Saurav Kumar",
-    experience: "General Manager and CEO of KIET-TBI",
+    experience: "CEO | KIET-TBI",
     about:
       "Meet the dynamic General Manager and CEO of KIET-TBI. With a rich blend of leadership and innovation, they steer Ambuvians as a valued Board of Advisor, driving transformative healthcare solutions.",
     socialMediaLinks: [
@@ -238,13 +235,12 @@ export const ourMentors = [
         icon: Linkedin,
         alt: "Linkedin",
       },
-    
     ],
   },
   {
     image: DrRahat,
     name: "Dr. Rahat Ullah Khan",
-    experience: "Director and esteemed Advisor of Ambuvians",
+    experience: "Professor | KIET,Ghaziabad",
     about:
       "Introducing the Director and esteemed Advisor of Ambuvians. With strategic vision and deep industry insights, they champion excellence and steer Ambuvians towards groundbreaking healthcare innovations.",
     socialMediaLinks: [
@@ -258,7 +254,6 @@ export const ourMentors = [
         icon: Linkedin,
         alt: "Linkedin",
       },
-    
     ],
   },
 ];
