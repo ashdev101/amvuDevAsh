@@ -19,9 +19,9 @@ const FAService = () => {
                 {/* Right Side Content */}
                 <div className="flex-1 flex justify-center items-center 2xl:pl-[50px] xl:pr-[25px]">
                     <div className="w-[95%] h-[80%] m-auto bg-[#1B2534] rounded-[20px] flex flex-col justify-evenly items-start pl-[10%] relative">
-                        <p className="font-[800] 2xl:text-[42px] xl:text-[40px] lg:text-[35px] md:text-[30px] sm:text-[25px] text-[20px] text-center text-white">Call Us</p>
+                        <p className="font-[800] 2xl:text-[42px] xl:text-[40px] lg:text-[35px] md:text-[30px] sm:text-[25px] text-[20px] text-center text-white">Emergency <br /> Call</p>
                         <img src={CallUsIcon} alt="Call Us" className="2xl:w-[100px] xl:w-[97px] lg:w-[95px] md:w-[90px] sm:w-[80px] w-[70px]" />
-                        <img src={AmbuviansImage} alt="Ambuvians" className="2xl:w-[380px] xl:w-[360px] lg:w-[300px] md:w-[250px] sm:w-[150px] w-[100px] absolute md:right-0 right-[6%] md:bottom-[-20px]" />
+                        <img src={AmbuviansImage} alt="Ambuvians" className="2xl:w-[380px] xl:w-[360px] lg:w-[300px] md:w-[250px] sm:w-[150px] w-[100px] absolute md:right-0 right-[6%] md:bottom-[-20px] bottom-[10px]" />
                     </div>
                 </div>
             </div>

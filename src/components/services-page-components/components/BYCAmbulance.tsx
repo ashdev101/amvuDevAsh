@@ -1,5 +1,5 @@
 import "../../../styles/services-page-styles/BYCAmbulance.css"
-import { CallUsIcon, SmsIcon } from "../../../utils/services-utils/images"
+import { CallUsIcon, CallUsIconGreen, SmsIconGreen } from "../../../utils/services-utils/images"
 const BYCAmbulance = () => {
     return (
         <div className="flex flex-wrap  lg:gap-[25px] sm:gap-[20px] gap-[10px] md:px-[40px] px-[10px] items-center justify-center">
@@ -15,9 +15,9 @@ const BYCAmbulance = () => {
                     <h2 className="BYC-Ambulance-h2">Book Your Customised Ambulance</h2>
                     <a href="" className="BYC-Ambulance-link">Book Now</a>
                 </div>
-                <div className="flex justify-between px-[5%] w-full">
-                    <img src={CallUsIcon} alt="Call Us" className="BYCA-callus-icons" />
-                    <img src={SmsIcon} alt="Call Us" className="BYCA-message-icons" />
+                <div className="flex justify-between items-center px-[5%] w-full">
+                    <a href="">    <img src={CallUsIconGreen} alt="Call Us" className="BYCA-callus-icons" /></a>
+                    <a href="">   <img src={SmsIconGreen} alt="Call Us" className="BYCA-message-icons" /></a>
                 </div>
             </div>
 
@@ -32,9 +32,9 @@ const BYCAmbulance = () => {
                 <div className="flex flex-col justify-center items-center w-full mt-[5%]">
                     <h2 className="BYC-Ambulance-h2">Book Your Customised Ambulance</h2>
                     <div className="flex w-full justify-evenly items-center  mt-[3%]">
-                        <img src={CallUsIcon} alt="Call Us" className="BYCA-callus-icons" />
+                        <a href=""> <img src={CallUsIconGreen} alt="Call Us" className="BYCA-callus-icons" /></a>
                         <a href="" className="BYC-Ambulance-link">Book Now</a>
-                        <img src={SmsIcon} alt="Call Us" className="BYCA-message-icons" />
+                        <a href="">  <img src={SmsIconGreen} alt="Call Us" className="BYCA-message-icons" /></a>
                     </div>
                 </div>
             </div>

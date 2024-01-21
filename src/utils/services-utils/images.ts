@@ -1,8 +1,10 @@
 /* Fastest Ambulance Service */
 const CallUsIcon =
   "https://res.cloudinary.com/dvkfio4zq/image/upload/v1705498127/upload/ambuvians/wwyseyufvlxwetuyoxe3.svg";
-const SmsIcon =
-  "https://res.cloudinary.com/dvkfio4zq/image/upload/v1705562034/upload/ambuvians/jqiraltydi5dpims88xf.svg";
+const CallUsIconGreen =
+  "https://res.cloudinary.com/dvkfio4zq/image/upload/v1705816091/upload/ambuvians/xx8ywurekqizacnqwrkh.svg";
+const SmsIconGreen =
+  "https://res.cloudinary.com/dvkfio4zq/image/upload/v1705816236/upload/ambuvians/doixkeyi8tigq1fdehke.svg";
 
 const Mobile =
   "https://res.cloudinary.com/dvkfio4zq/image/upload/v1705579568/upload/ambuvians/ldhnbok3kbxu1shgarxh.svg";
@@ -31,7 +33,7 @@ const StatisticsBg2 =
 
 export {
   CallUsIcon,
-  SmsIcon,
+  SmsIconGreen,
   Mobile,
   UserInteractive,
   Satellite,
@@ -40,4 +42,5 @@ export {
   BottomImage,
   StatisticsBg1,
   StatisticsBg2,
+  CallUsIconGreen,
 };
