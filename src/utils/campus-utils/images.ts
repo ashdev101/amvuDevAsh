@@ -7,7 +7,7 @@ const RectangleCorner01 =
   "https://res.cloudinary.com/dvkfio4zq/image/upload/v1705382809/upload/ambuvians/nriz4zeyaoxalvsbymju.png";
 
 const Widget01 =
-  "https://res.cloudinary.com/dvkfio4zq/image/upload/v1705405381/upload/ambuvians/v1njonvlorapebynkkhn.png";
+  "https://res.cloudinary.com/dvkfio4zq/image/upload/v1705820492/upload/ambuvians/od726kzh7hubewk2xgco.png";
 const Widget02 =
   "https://res.cloudinary.com/dvkfio4zq/image/upload/v1705409538/upload/ambuvians/oerwllerwaubx3kssb59.svg";
 
@@ -21,7 +21,7 @@ const Interview =
 const Joining =
   "https://res.cloudinary.com/dvkfio4zq/image/upload/v1705395054/upload/ambuvians/fcjbknxsx36jbk2x4jia.svg";
 
-/* Perks */
+/* Perks */ 
 const Certificate =
   "https://res.cloudinary.com/dvkfio4zq/image/upload/v1705400580/upload/ambuvians/whgkasxsvpkejojzjmd9.svg";
 const Letter =
