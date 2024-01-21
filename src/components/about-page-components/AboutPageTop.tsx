@@ -42,7 +42,6 @@ const AboutPageTop = () => {
                             </p>
                             <p className=" bg-[#FFCA1D] rounded-md px-2 py-1 2xl:text-[16px] xl:text-[15px] lg:text-[13px] ">
                                 Message
-
                             </p>
                         </div>
                     </div>

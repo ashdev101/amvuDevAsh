@@ -25,10 +25,8 @@ const FAService = () => {
                     </div>
                 </div>
             </div>
-
             {/* Book Your Customised Ambulance */}
             <BYCAmbulance />
-
             {/* Watch how to book and Google Play , App Store Boxes  */}
             <WHTBookGPAS />
         </div>
