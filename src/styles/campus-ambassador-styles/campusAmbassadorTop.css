@@ -44,7 +44,7 @@
   overflow: hidden;
   box-sizing: border-box;
   margin: auto;
-  @apply sm:w-[450px] w-[300px]
+  @apply sm:w-[450px] w-[300px];
 }
 .marquee p {
   display: inline-block;

@@ -2,3 +2,19 @@
   font-family: "Inter", sans-serif;
   @apply text-center 2xl:text-[38.06px] xl:text-[38px] lg:text-[30px]  sm:text-[25px] text-[20px]  z-10 text-[#4D4D4D] font-[500];
 }
+
+
+
+@media (max-width: 640px) {
+  .auto-scroll{
+    animation: marquee 10s linear infinite;
+  }
+}
+@keyframes marquee {
+  0% {
+    transform: translate(-550%, 0);
+  }
+  100% {
+    transform: translate(550%, 0);
+  }
+}
