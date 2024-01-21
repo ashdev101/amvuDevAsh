@@ -4,46 +4,18 @@
     #d9d9d9 42.96%,
     rgba(243, 16, 75, 0.68) 77.35%
   );
-  @apply 2xl:h-[1600px] xl:h-[1500px] lg:h-[1300px] md:h-[1000px] sm:h-[800px] h-[600px] w-full mt-[100px] relative;
+  @apply xl:h-[1700px] lg:h-[1300px] md:h-[1100px] sm:h-[00px] h-[500px] w-full md:mt-[100px] mt-[50px] relative;
 }
 
 .services-bottom-div-h2 {
-  @apply 2xl:text-[91px] xl:text-[89px] lg:text-[70px] md:text-[60px] sm:text-[50px] text-[35px] font-[900] leading-[124%] text-[#E9EAF2];
+  @apply 2xl:text-[91px] xl:text-[89px] lg:text-[70px] md:text-[50px] sm:text-[40px] text-[25px] font-[900] leading-[124%] text-[#E9EAF2];
 }
 
 .services-bottom-div-p {
-  @apply text-[#FFDC6C] 2xl:text-[39px] xl:text-[35px] lg:text-[30px] md:text-[25px] sm:text-[20px] text-[18px] font-[900];
+  @apply text-[#FFDC6C] 2xl:text-[39px] xl:text-[35px] lg:text-[30px] md:text-[25px] sm:text-[20px] text-[16px] font-[900];
 }
 
 .sbi-images {
-  @apply w-[55%];
+  @apply w-full h-full absolute right-[0] top-0;
 }
-.sbi-one {
-  @apply absolute right-[38%] top-0;
-}
-.sbi-two {
-  @apply absolute right-[20%] top-0;
-}
-.sbi-three {
-  @apply absolute right-[0%] top-0;
-}
-.sbi-four {
-  @apply absolute right-[24%] 2xl:top-[28%] xl:top-[27%] lg:top-[26%] md:top-[28%] sm:top-[26%] top-[23%] ;
-}
-.sbi-five {
-  @apply absolute right-[0%] w-[48%] top-[8%];
-}
- 
-.sbi-six {
-  @apply absolute right-[0%] w-[18%] top-[1%];
-}
-.sbi-seven {
-  @apply absolute 2xl:right-[0%] right-[5%] 2xl:w-[45%] w-[40%] bottom-[0%];
-}
- 
-.sbi-eight {
-  @apply absolute right-[0%] 2xl:w-[15%] w-[12%] bottom-[0%];
-}
- 
-
  

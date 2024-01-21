@@ -20,22 +20,8 @@ const ScreenWithFrame =
   "https://res.cloudinary.com/dvkfio4zq/image/upload/v1705646931/upload/ambuvians/vfjn5soxjujzltvhz0ce.svg";
 
 /* Service page bottom images */
-const BottomImageOne =
-  "https://res.cloudinary.com/dvkfio4zq/image/upload/v1705660543/upload/ambuvians/qpqkooei76ng7y8i96rn.svg";
-const BottomImageTwo =
-  "https://res.cloudinary.com/dvkfio4zq/image/upload/v1705660624/upload/ambuvians/hsdpo9jze5uc1byfxy2e.svg";
-const BottomImageThree =
-  "https://res.cloudinary.com/dvkfio4zq/image/upload/v1705660686/upload/ambuvians/key7vxcvjm0sxkzevdmh.svg";
-const BottomImageFour =
-  "https://res.cloudinary.com/dvkfio4zq/image/upload/v1705660733/upload/ambuvians/an70m9moyv1lounc0jet.svg";
-const BottomImageFive =
-  "https://res.cloudinary.com/dvkfio4zq/image/upload/v1705660811/upload/ambuvians/qsrn9n6sszmvprrbez9b.svg";
-const BottomImageSix =
-  "https://res.cloudinary.com/dvkfio4zq/image/upload/v1705660870/upload/ambuvians/jq7l2hkzr4mmnj3iywbo.svg";
-const BottomImageSeven =
-  "https://res.cloudinary.com/dvkfio4zq/image/upload/v1705660932/upload/ambuvians/rgsweh1tgoqcaxsvp0qs.svg";
-const BottomImageEight =
-  "https://res.cloudinary.com/dvkfio4zq/image/upload/v1705660999/upload/ambuvians/elkro8bwxzsdmroz8ylj.svg";
+const BottomImage =
+  "https://res.cloudinary.com/dvkfio4zq/image/upload/v1705812916/upload/ambuvians/bdymk893dta8rmihocn1.png";
 
 const StatisticsBg1 =
   "https://res.cloudinary.com/dvkfio4zq/image/upload/v1705724804/upload/ambuvians/zgkxcpkwm9jnzvlx5cbh.jpg";
@@ -51,14 +37,7 @@ export {
   Satellite,
   DesktopIcon,
   ScreenWithFrame,
-  BottomImageFive,
-  BottomImageFour,
-  BottomImageOne,
-  BottomImageSeven,
-  BottomImageSix,
-  BottomImageThree,
-  BottomImageTwo,
-  BottomImageEight,
+  BottomImage,
   StatisticsBg1,
   StatisticsBg2,
 };

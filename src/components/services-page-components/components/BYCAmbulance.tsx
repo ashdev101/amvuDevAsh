@@ -5,8 +5,8 @@ const BYCAmbulance = () => {
         <div className="flex flex-wrap  lg:gap-[25px] sm:gap-[20px] gap-[10px] md:px-[40px] px-[10px] items-center justify-center">
             {/* BLS , PTS div */}
             <div className="BLS-ALS-div">
-                <p className="BYCA-para">BLS</p>
-                <p className="BYCA-para">PTS</p>
+                <a href="" className="BYCA-para-link">BLS</a>
+                <a href="" className="BYCA-para-link">PTS</a>
             </div>
 
             {/* Book Your Customised Ambulance div for - Large Devices */}
@@ -23,8 +23,8 @@ const BYCAmbulance = () => {
 
             {/* ALS , MTS div */}
             <div className="BLS-ALS-div">
-                <p className="BYCA-para">ALS</p>
-                <p className="BYCA-para">MTS</p>
+                <a href="" className="BYCA-para-link">ALS</a>
+                <a href="" className="BYCA-para-link">MTS</a>
             </div>
 
             {/* Book Your Customised Ambulance div for- Small Devices */}

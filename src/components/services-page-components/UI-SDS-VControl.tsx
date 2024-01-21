@@ -10,7 +10,7 @@ const UISDSVControl = () => {
                 {/* Left Side Content */}
                 <div className="UI-SDS-VControl-left-side-div">
                     <div className="flex flex-col justify-center items-center w-full absolute xl:top-[-15%] top-[-5%]">
-                        <img src={ScreenWithFrame} alt="Mobile App" className="2xl:w-[456px] xl:w-[400px] lg:w-[350px] md:w-[250px] w-[40%]" />
+                        <img src={ScreenWithFrame} alt="Mobile App" className="2xl:w-[456px] xl:w-[400px] lg:w-[350px] sm:w-[250px] w-[40%]" />
                         <div className="flex gap-[10px] mt-[30px]">
                             <img src={GooglePlay} alt="GooglePlay" className="UI-SDS-VControl-google-app-store-icon" />
                             <img src={AppStore} alt="AppStore" className="UI-SDS-VControl-google-app-store-icon" />

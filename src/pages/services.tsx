@@ -4,7 +4,7 @@ import ServicesTop from "../components/services-page-components/ServicesTop"
 import StatisitcsService from "../components/services-page-components/StatisitcsService"
 import UISDSVControl from "../components/services-page-components/UI-SDS-VControl"
 import "../styles/services-page-styles/services.css"
-import { BottomImageEight, BottomImageFive, BottomImageFour, BottomImageOne, BottomImageSeven, BottomImageSix, BottomImageThree, BottomImageTwo } from "../utils/services-utils/images"
+import { BottomImage } from "../utils/services-utils/images"
 
 const ServicesPage = () => {
 
@@ -32,14 +32,7 @@ const ServicesPage = () => {
                     <p className="services-bottom-div-p">ambuvians.in</p>
                 </div>
                 <div className="relative h-full">
-                    <img src={BottomImageOne} alt="image" className="sbi-one sbi-images" />
-                    <img src={BottomImageTwo} alt="image" className="sbi-two sbi-images" />
-                    <img src={BottomImageThree} alt="image" className="sbi-three sbi-images" />
-                    <img src={BottomImageFour} alt="image" className="sbi-four sbi-images" />
-                    <img src={BottomImageFive} alt="image" className="sbi-five sbi-images" />
-                    <img src={BottomImageSix} alt="image" className="sbi-six sbi-images" />
-                    <img src={BottomImageSeven} alt="image" className="sbi-seven sbi-images" />
-                    <img src={BottomImageEight} alt="image" className="sbi-eight sbi-images" />
+                    <img src={BottomImage} alt="image" className="sbi-images" />
                 </div>
             </div>
         </div>

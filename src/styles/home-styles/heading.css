@@ -48,4 +48,29 @@
     transform: rotate(-360deg);
   }
 }
- 
+
+/* animation */
+
+.heading-h1-p {
+  animation: fadeBottomToTop 0.5s linear;
+}
+
+@keyframes fadeBottomToTop {
+  0% {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+.show {
+  transition: all 0.5s;
+  opacity: 1;
+}
+
+.hide {
+  opacity: 0;
+}
