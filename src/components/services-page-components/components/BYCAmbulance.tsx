@@ -1,5 +1,5 @@
 import "../../../styles/services-page-styles/BYCAmbulance.css"
-import { CallUsIcon, CallUsIconGreen, SmsIconGreen } from "../../../utils/services-utils/images"
+import { CallUsIconGreen, SmsIconGreen } from "../../../utils/services-utils/images"
 const BYCAmbulance = () => {
     return (
         <div className="flex flex-wrap  lg:gap-[25px] sm:gap-[20px] gap-[10px] md:px-[40px] px-[10px] items-center justify-center">
