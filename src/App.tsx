@@ -7,6 +7,7 @@ import Home from "./pages/home";
 import ServicesPage from "./pages/services";
 import { useEffect, useState } from "react";
 import PrivacyPolicy from "./pages/privacy-policy";
+import TermsAndCondition from "./pages/terms-and-condition";
 
 function App() {
   const [scrollPercentage, setScrollPercentage] = useState(0);
@@ -35,6 +36,7 @@ function App() {
           <Route path="/join-us" element={<CampusAmbassador />} />
           <Route path="/services" element={<ServicesPage />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+          <Route path="/terms-and-conditions" element={<TermsAndCondition />} />
         </Routes>
         <Footer />
       </BrowserRouter>
