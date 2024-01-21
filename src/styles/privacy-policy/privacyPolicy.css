@@ -1,0 +1,7 @@
+.privacy-policy-headings {
+  @apply text-[#212326] font-[600] 2xl:text-[32px] xl:text-[30px] lg:text-[25px] md:text-[20px] text-[18px] lg:mt-[50px] mt-[20px] text-center;
+}
+
+.privacy-policy-para {
+  @apply mt-[10px] font-[400] xl:text-[18px] md:text-[16px] sm:text-[14px] text-[12px] text-[#797979] text-start;
+}
