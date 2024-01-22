@@ -144,7 +144,7 @@ const RefundPolicy = () => {
                 </h2>
                 <p className="privacy-policy-para">
                     For any questions, concerns, or complaints regarding this Refund Policy, please contact Ambuvians'
-                    customer support team at <a href="mail-to:support@ambuvians.in" className=" text-blue-700">support@ambuvians.in</a>.
+                    customer support team at <a href="mailto:support@ambuvians.in" className=" text-blue-700">support@ambuvians.in</a>.
                 </p>
                 <p className="privacy-policy-para">
                     By availing Ambuvians' ambulance services, users acknowledge and agree to abide by this Refund
