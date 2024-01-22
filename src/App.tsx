@@ -9,6 +9,7 @@ import { useEffect, useState } from "react";
 import PrivacyPolicy from "./pages/privacy-policy";
 import TermsAndCondition from "./pages/terms-and-condition";
 import GrievanceRedressalPolicy from "./pages/grievance-redressal-policy";
+import RefundPolicy from "./pages/refund-policy";
 
 function App() {
   const [scrollPercentage, setScrollPercentage] = useState(0);
@@ -39,6 +40,7 @@ function App() {
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           <Route path="/terms-and-conditions" element={<TermsAndCondition />} />
           <Route path="/grievance-redressal-policy" element={<GrievanceRedressalPolicy />} />
+          <Route path="/refund-policy" element={<RefundPolicy />} />
         </Routes>
         <Footer />
       </BrowserRouter>

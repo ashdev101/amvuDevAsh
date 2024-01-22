@@ -141,8 +141,10 @@ const PrivacyPolicy = () => {
                 <h2 className="privacy-policy-headings">
                     Contact Us
                 </h2>
-                <p className="privacy-policy-para text-center" style={{textAlign:"center"}}>
-                    For any questions, concerns, or complaints regarding this Privacy Policy or our data practices.
+                <p className="privacy-policy-para text-center" style={{ textAlign: "center" }}>
+                    For any questions, concerns, or complaints regarding this Privacy Policy or our data practices,please contact our Privacy Officer at privacy. <a href="www.ambuvians.in" target="_blank" className=" text-blue-700">ambuvians.in</a>
+                    <br />
+                    By using Ambuvians' services, users acknowledge and agree to the terms of this Privacy Policy.
                 </p>
             </div>
         </div>
