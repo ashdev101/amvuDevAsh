@@ -1,4 +1,4 @@
-import { Animator, MoveIn, MoveOut, ScrollContainer, Zoom } from "react-scroll-motion";
+import { Animator, MoveOut, ScrollContainer } from "react-scroll-motion";
 import "../../styles/home-styles/heading.css";
 import { socialMediaLinks } from "../../utils/home-utils/homeUtils";
 import { AmbuviansImage, IllusBG } from "../../utils/home-utils/images";
