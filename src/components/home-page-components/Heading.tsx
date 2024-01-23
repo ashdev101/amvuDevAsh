@@ -1,3 +1,4 @@
+import { Animator, MoveIn, MoveOut, ScrollContainer, Zoom } from "react-scroll-motion";
 import "../../styles/home-styles/heading.css";
 import { socialMediaLinks } from "../../utils/home-utils/homeUtils";
 import { AmbuviansImage, IllusBG } from "../../utils/home-utils/images";
@@ -7,26 +8,30 @@ const Heading = () => {
 
   return (
     <div className="flex relative xl:h-[700px] lg:h-[600px] md:h-[500px] sm:h-[380px] h-[320px]">
-
       {/* Heading and paragraph div - Left Side Content */}
       <div className="w-[50%] flex items-start flex-col relative">
-        <div
+        <div>
+          <ScrollContainer>
+            <Animator animation={MoveOut(0,-400)}>
 
-        >
-          <h1 className="heading-H1">
-            Ambuvians <br />
-            <span className="text-[#E85A4F]"> Healthcare</span>
-          </h1>
-          <p className="heading-description-p">
-            "Empowering health and wellness, we the 'Ambuvians' is dedicated to
-            providing cutting-edge solutions and compassionate care. With a team
-            of skilled professionals and a commitment to innovation, we strive
-            to make a positive impact on lives. Your well-being is our priority,
-            and we are here to offer you rapid ambulance services organized by
-            skilled medical professionals and advanced technologies."
-          </p>
+
+              <h1 className="heading-H1">
+                Ambuvians <br />
+                <span className="text-[#E85A4F]"> Healthcare</span>
+              </h1>
+              <p className="heading-description-p">
+                "Empowering health and wellness, we the 'Ambuvians' is dedicated to
+                providing cutting-edge solutions and compassionate care. With a team
+                of skilled professionals and a commitment to innovation, we strive
+                to make a positive impact on lives. Your well-being is our priority,
+                and we are here to offer you rapid ambulance services organized by
+                skilled medical professionals and advanced technologies."
+              </p>
+
+            </Animator>
+
+          </ScrollContainer>
         </div>
-
         {/* Social Links Div */}
         <div
           className="heading-social-links-div">
