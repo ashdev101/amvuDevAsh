@@ -6,7 +6,7 @@ import Services from "../components/home-page-components/Services";
 import Statistics from "../components/home-page-components/Statistics";
 import WhatMakesUsDifferent from "../components/home-page-components/WhatMakesUsDifferent";
 import WhyWeNeedAmbuvians from "../components/home-page-components/WhyWeNeedAmbuvians";
-import "../styles/home-styles/home.css"
+import "../styles/home-styles/home.css";
 
 const Home = () => {
   return (
