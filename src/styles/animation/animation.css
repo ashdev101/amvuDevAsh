@@ -31,21 +31,7 @@
   }
 }
 
-.left-in {
-  animation: leftIn 1s linear;
-  transition: all 1s ease-in-out;
-}
-@keyframes leftIn {
-  0% {
-    transform:scale(0.5);
-  }
  
- 
-  100% {
-    transform: scale(1);
-  }
-}
-
 .animate-fadein {
   animation: animateFadein 1s linear;
 }
@@ -64,18 +50,9 @@
 .animate-fadeout {
   opacity: 0;
   transition: all 0.5s;
-/*   animation: animateFadeOut 1s linear; */
+ 
 }
-/* @keyframes animateFadeOut {
-  0% {
-    transform: translateY(0);
-    opacity: 1;
-  }
-  100% {
-    transform: translateY(-100px);
-    opacity: 0;
-  }
-} */
+ 
 
 .zoom-in {
   animation: zoomIn 1s linear;

@@ -1,15 +1,12 @@
-import { Animator, ZoomOut } from "react-scroll-motion";
 import "../../styles/home-styles/statistics.css";
 import { statisticsImageAndText } from "../../utils/home-utils/homeUtils";
 import H2 from "./components/H2";
 const Statistics = () => {
-  return (
-
-    <Animator animation={ZoomOut(1, -2)}>
+  return ( 
       <div className="w-full">
         <H2 text="Statistics" />
         <div
-          className="statistics-box-div hideScrollbar left-in">
+          className="statistics-box-div hideScrollbar zoom-in">
           {
             statisticsImageAndText && statisticsImageAndText.map((element, index) => (
               <div key={index} className="flex flex-col justify-center items-center">
@@ -22,8 +19,7 @@ const Statistics = () => {
             ))
           }
         </div>
-      </div>
-    </Animator>
+      </div> 
   )
 }
 
