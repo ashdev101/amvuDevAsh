@@ -1,7 +1,6 @@
 import "../../styles/home-styles/whatMakesIUsDifferent.css"
 import { ourBenefits } from "../../utils/home-utils/homeUtils"
-import { Check, IllusBG, DashboardWithPhone, User } from "../../utils/home-utils/images"
-import Button from "../Button"
+import { Check, DashboardWithPhone, IllusBG, User } from "../../utils/home-utils/images"
 const WhatMakesUsDifferent = () => {
     return (
         <div className="w-full 2xl:mt-[20px] xl:mt-[400px] lg:mt-[450px] md:mt-[430px] sm:mt-[400px] mt-[530px]">
@@ -29,8 +28,8 @@ const WhatMakesUsDifferent = () => {
                             }
                         </div>
                         <div className="2xl:ml-[10px] ml-[0px] mt-[50px] flex 2xl:justify-center lg:justify-start justify-center items-center lg:gap-[200px] gap-[50px]">
-                            <Button text="Explore" />
-                            <Button text="Download App" />
+                            <a href="" className="btn">Explore</a>
+                            <a href="" className="btn">Download App</a>
                         </div>
                     </div>
                 </div>
