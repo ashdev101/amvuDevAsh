@@ -15,9 +15,9 @@ const WhyWeNeedAmbuvians = () => {
 
                 {/* top content div */}
                 <div className="flex xl:flex-row flex-col-reverse justify-evenly">
-                    <div className={clsx("h-full flex justify-between items-baseline 2xl:w-[38%] xl:w-[44%] w-[38%]", imgInView ? "image-in-view" : "animate-fadeout")} ref={imgRef}>
-                        <img src={Traffic} alt="traffic" className="whyWeNeedAmbuvians-traffic-image" />
-                        <img src={Patient1} alt="patient" className="whyWeNeedAmbuvians-patient1-image" />
+                    <div className={"h-full flex justify-between items-baseline 2xl:w-[38%] xl:w-[44%] w-[38%]"} ref={imgRef}>
+                        <img src={Traffic} alt="traffic" className={clsx("whyWeNeedAmbuvians-traffic-image", imgInView ? "image-in-view" : "animate-fadeout")} />
+                        <img src={Patient1} alt="patient" className={clsx("whyWeNeedAmbuvians-patient1-image", imgInView ? "image-in-view" : "animate-fadeout")} />
                     </div>
                     <div className={clsx("lg:w-[610px] h-[300px]", inView ? "animate-fadein" : "animate-fadeout")}>
                         <h3 className="lg:w-full md:w-[50%] py-[20px] w-[70%] md:h-[128px] font-[700] text-[#DC1F27] xl:ml-0 sm:ml-[10%] ml-[4%] xl:text-[39px] md:text-[30px] text-[22px] md:leading-[55px] leading-[30px]">
@@ -30,9 +30,9 @@ const WhyWeNeedAmbuvians = () => {
                 </div>
 
                 {/* bottom content div */}
-                <div className={clsx("flex justify-evenly mt-[50px] 2xl:w-[80%] xl:w-[90%] w-[80%] m-auto", imgInView ? "image-in-view" : "animate-fadeout")}>
-                    <img src={PatientOnBike} alt="patient" className="whyWeNeedAmbuvians-patientOnBike-image" />
-                    <img src={Patient2} alt="patient" className="whyWeNeedAmbuvians-patient2-image" />
+                <div className={clsx("flex justify-evenly mt-[50px] 2xl:w-[80%] xl:w-[90%] w-[80%] m-auto")}>
+                    <img src={PatientOnBike} alt="patient" className={clsx("whyWeNeedAmbuvians-patientOnBike-image", imgInView ? "image-in-view" : "animate-fadeout")} />
+                    <img src={Patient2} alt="patient" className={clsx("whyWeNeedAmbuvians-patient2-image", imgInView ? "image-in-view" : "animate-fadeout")} />
                 </div>
             </div>
 
