@@ -20,13 +20,35 @@
   25% {
     transform: scale(1.4);
   }
-  50%{
+  50% {
     transform: scale(0.7);
   }
-  75%{
+  75% {
     transform: scale(1.2);
   }
   100% {
     transform: scale(1);
   }
+}
+
+.left-in {
+  animation: leftIn 2s linear;
+  transition: all 1s ease-in-out;
+}
+@keyframes leftIn {
+  0% {
+    transform: translateX(-50px);
+  }
+  25% {
+    transform: translateX(300px);
+  }
+  50% {
+    transform:translateX(-300px);
+  }
+  75% {
+    transform:translateX(50px);
+  }
+  100% {
+    transform:translateX(0);
+  } 
 }
