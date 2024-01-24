@@ -9,7 +9,7 @@ const H2: React.FC<H2PropsTypes> = ({ text }) => {
     const { ref, inView } = useInView()
     return (
         <h2 ref={ref}
-            className={clsx("all-home-components-heading-h1", inView && "h1-in")}
+            className={clsx("all-home-components-heading-h1", inView ? "h1-in" : "animate-fadeout")}
         >{text}
         </h2>
     )
