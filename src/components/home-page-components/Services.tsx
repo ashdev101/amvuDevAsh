@@ -4,15 +4,16 @@ import { doctorsServices, services } from "../../utils/home-utils/homeUtils"
 import { DoctorIcon, Vector } from "../../utils/home-utils/images"
 import clsx from "clsx"
 const Services = () => {
-    const { ref, inView } = useInView()
+    const { ref: rightRef, inView: rightInView } = useInView()
+    const { ref: leftRef, inView: leftInView } = useInView()
     return (
-        <div className="w-full lg:mt-[100px] mt-[80px]" ref={ref}>
+        <div className="w-full lg:mt-[100px] mt-[80px]">
             <h2 className="all-home-components-heading-h1">Services</h2>
 
             <div className="w-full flex 2xl:flex-row flex-col  h-[657px] mt-[40px]">
 
                 {/* Servise Component left side */}
-                <div className={clsx("services-left-side-div", inView && "zoom-in")}>
+                <div className={clsx("services-left-side-div", leftInView ? "zoom-in" : "animate-fadeout")} ref={leftRef}>
 
                     {/* Services Box */}
                     <div className="services-box" >
@@ -53,7 +54,7 @@ const Services = () => {
 
 
                 {/* Servise Component right side  */}
-                <div className={clsx("services-right-side-div", inView ? "animate-fadein" : "animate-fadeout")}>
+                <div className={clsx("services-right-side-div", rightInView ? "animate-fadein" : "animate-fadeout")} ref={rightRef}>
                     <div className="2xl:w-[484.08px] lg:w-[80%] w-[100%]  mt-[20px] mr-[15px]">
                         <h3 className=" w-full  text-[#DC1F27] font-[700] 2xl:text-[39px] md:text-[30px] ml-[15px] text-[22px] md:leading-[55px] leading-[30px]">
                             Your Wellness, Our Priority: Streamlined Solutions for Modern Healthcare
