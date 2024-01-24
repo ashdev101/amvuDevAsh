@@ -20,7 +20,7 @@ const BYCAmbulance = () => {
                     <a href="">   <img src={SmsIconGreen} alt="Call Us" className="BYCA-message-icons" /></a>
                 </div>
             </div>
-
+ 
             {/* ALS , MTS div */}
             <div className="BLS-ALS-div">
                 <a href="" className="BYCA-para-link">ALS</a>
@@ -33,7 +33,7 @@ const BYCAmbulance = () => {
                     <h2 className="BYC-Ambulance-h2">Book Your Customised Ambulance</h2>
                     <div className="flex w-full justify-evenly items-center  mt-[3%]">
                         <a href=""> <img src={CallUsIconGreen} alt="Call Us" className="BYCA-callus-icons" /></a>
-                        <a href="" className="BYC-Ambulance-link">Book Now</a>
+                        <a href="" className="BYC-Ambulance-link scale-on-hover">Book Now</a>
                         <a href="">  <img src={SmsIconGreen} alt="Call Us" className="BYCA-message-icons" /></a>
                     </div>
                 </div>
