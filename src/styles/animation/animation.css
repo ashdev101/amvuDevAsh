@@ -109,3 +109,68 @@
     opacity: 1;
   }
 }
+
+.image-in-view {
+  animation: imageInView 0.7s linear;
+}
+@keyframes imageInView {
+  0% {
+    opacity: 0;
+    transform: skew(20deg, 10deg);
+  }
+  100% {
+    opacity: 1;
+    transform: skew(0deg, 0deg);
+  }
+}
+
+.animate-vactor-one {
+  animation: animateVactor 2s linear;
+}
+@keyframes animateVactor {
+  0% {
+    transform: translateY(-300px);
+    opacity: 0;
+  }
+  25% {
+    transform: translateY(300px);
+    opacity: 0.3;
+  }
+  50% {
+    transform: translateY(-150px);
+    opacity: 0.6;
+  }
+  75% {
+    transform: translateY(150px);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+.animate-vactor-two {
+  animation: animateVactorTwo 2s linear;
+}
+@keyframes animateVactorTwo {
+  0% {
+    transform: translateY(300px);
+    opacity: 0;
+  }
+  25% {
+    transform: translateY(-300px);
+    opacity: 0.3;
+  }
+  50% {
+    transform: translateY(150px);
+    opacity: 0.6;
+  }
+  75% {
+    transform: translateY(-150px);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
