@@ -53,4 +53,45 @@
   }
 }
 
- 
+.animate-fadein {
+  animation: animateFadein 1s linear;
+}
+
+@keyframes animateFadein {
+  0% {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animate-fadeout {
+  animation: animateFadeOut 1s linear;
+}
+@keyframes animateFadeOut {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+}
+
+.zoom-in {
+  animation: zoomIn 1s linear;
+}
+@keyframes zoomIn {
+  0% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}

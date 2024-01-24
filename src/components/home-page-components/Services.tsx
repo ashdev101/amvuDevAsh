@@ -1,15 +1,18 @@
+import { useInView } from "react-intersection-observer"
 import "../../styles/home-styles/services.css"
 import { doctorsServices, services } from "../../utils/home-utils/homeUtils"
 import { DoctorIcon, Vector } from "../../utils/home-utils/images"
+import clsx from "clsx"
 const Services = () => {
+    const { ref, inView } = useInView()
     return (
-        <div className="w-full lg:mt-[100px] mt-[80px]">
+        <div className="w-full lg:mt-[100px] mt-[80px]" ref={ref}>
             <h2 className="all-home-components-heading-h1">Services</h2>
 
             <div className="w-full flex 2xl:flex-row flex-col  h-[657px] mt-[40px]">
 
                 {/* Servise Component left side */}
-                <div className="services-left-side-div">
+                <div className={clsx("services-left-side-div", inView && "zoom-in")}>
 
                     {/* Services Box */}
                     <div className="services-box" >
@@ -50,7 +53,7 @@ const Services = () => {
 
 
                 {/* Servise Component right side  */}
-                <div className="services-right-side-div">
+                <div className={clsx("services-right-side-div", inView ? "animate-fadein" : "animate-fadeout")}>
                     <div className="2xl:w-[484.08px] lg:w-[80%] w-[100%]  mt-[20px] mr-[15px]">
                         <h3 className=" w-full  text-[#DC1F27] font-[700] 2xl:text-[39px] md:text-[30px] ml-[15px] text-[22px] md:leading-[55px] leading-[30px]">
                             Your Wellness, Our Priority: Streamlined Solutions for Modern Healthcare
