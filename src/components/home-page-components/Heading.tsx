@@ -53,7 +53,7 @@ const Heading = () => {
         </Animator>
         <div className="heading-ambuvians-image-div">
           <Animator animation={ZoomOut(1, 0)}>
-            <img src={AmbuviansImage} alt="Ambuvians Image" className="heading-ambuvians-image animate-bounce-in" />
+            <img src={AmbuviansImage} alt="Ambuvians Image" className="heading-ambuvians-image zoom-in" />
           </Animator>
         </div>
       </div>
