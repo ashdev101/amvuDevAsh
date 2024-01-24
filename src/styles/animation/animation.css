@@ -111,7 +111,7 @@
 }
 
 .image-in-view {
-  animation: imageInView 0.8s linear;
+  animation: imageInView 1.3s linear;
   transition: all 0.5s;
 }
 @keyframes imageInView {
