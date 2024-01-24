@@ -3,8 +3,6 @@ interface ButtonPropTypes {
     text: string,
     mt?:string,
     ml?:string,
-
-
 }
 const Button: React.FC<ButtonPropTypes> = ({ text,mt,ml }) => {
     return (

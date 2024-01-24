@@ -1,8 +1,7 @@
+import "../../styles/home-styles/services.css"
 import { doctorsServices, services } from "../../utils/home-utils/homeUtils"
 import { DoctorIcon, Vector } from "../../utils/home-utils/images"
-import "../../styles/home-styles/services.css"
-import Button from "../Button"
-const Services = () => { 
+const Services = () => {
     return (
         <div className="w-full lg:mt-[100px] mt-[80px]">
             <h2 className="all-home-components-heading-h1">Services</h2>
@@ -60,7 +59,9 @@ const Services = () => {
                             With the advent of telemedicine, you can now consult doctors from the comfort of your home. This convenient and accessible approach to healthcare allows you to receive medical advice, prescriptions, and even treatment recommendations without the need for in-person visits. It's a game-changer in healthcare, offering convenience and safety.
                         </p>
                     </div>
-                    <Button text="Explore" mt={"30px"} ml="30px" />
+                    <div className="md:mt-[50px] mt-[25px]  ml-[20px]">
+                        <a href="" className="btn">Explore</a>
+                    </div>
                 </div>
             </div>
         </div>

@@ -43,7 +43,7 @@ const Heading = () => {
                 ))}
               <a href="" className="btn">Explore</a>
             </div>
-          </div>
+          </div> 
         </Animator>
       </ScrollContainer>
       {/* Ambuvians Image Div - Right Side Content */}
