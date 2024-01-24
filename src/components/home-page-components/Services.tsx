@@ -3,12 +3,13 @@ import "../../styles/home-styles/services.css"
 import { doctorsServices, services } from "../../utils/home-utils/homeUtils"
 import { DoctorIcon, Vector } from "../../utils/home-utils/images"
 import clsx from "clsx"
+import H2 from "./components/H2"
 const Services = () => {
     const { ref: rightRef, inView: rightInView } = useInView()
     const { ref: leftRef, inView: leftInView } = useInView()
     return (
         <div className="w-full lg:mt-[100px] mt-[80px]">
-            <h2 className="all-home-components-heading-h1">Services</h2>
+            <H2 text="Services" />
             <div className="w-full flex 2xl:flex-row flex-col  h-[657px] mt-[40px]">
 
                 {/* Servise Component left side */}
