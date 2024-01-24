@@ -9,7 +9,6 @@ const Services = () => {
     return (
         <div className="w-full lg:mt-[100px] mt-[80px]">
             <h2 className="all-home-components-heading-h1">Services</h2>
-
             <div className="w-full flex 2xl:flex-row flex-col  h-[657px] mt-[40px]">
 
                 {/* Servise Component left side */}

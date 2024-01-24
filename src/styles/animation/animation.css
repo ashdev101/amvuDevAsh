@@ -81,3 +81,17 @@
     transform: translateY(0px);
   }
 }
+
+.animate-card-in {
+  animation: animateCardIn 0.7s linear;
+}
+@keyframes animateCardIn {
+  0% {
+    opacity: 0;
+    transform: translateY(100px) scale(0.4);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px) scale(1);
+  }
+}

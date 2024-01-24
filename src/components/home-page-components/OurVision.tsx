@@ -2,8 +2,10 @@ import clsx from "clsx";
 import "../../styles/home-styles/ourVision.css";
 import { visionCardTextAndImage } from "../../utils/home-utils/homeUtils";
 import H2 from "./components/H2";
+import { useInView } from "react-intersection-observer";
 
 const OurVision = () => {
+  const { ref, inView } = useInView()
 
   /*   function randomTop() {
       return `${Math.floor(Math.random() * 200)}px`
@@ -18,11 +20,12 @@ const OurVision = () => {
       <H2 text="Our Vision" />
       {/* Cards Container */}
       <div
+        ref={ref}
         className="md:h-[320.93px] h-[280px] sm:w-[70%] w-[90%]  flex xl:justify-evenly justify-between overflow-auto  hideScrollbar gap-[30px]  m-auto mt-14 mb-3">
         {/* Cards */}
         {
           visionCardTextAndImage && visionCardTextAndImage.map((element, index) => (
-            <div key={index} className={clsx("w-[218.63px] h-full border-[3px] border-black rounded-[20px] gap-[17px] flex flex-col pt-[25px] items-center")}>
+            <div key={index} className={clsx("w-[218.63px] h-full border-[3px] border-black rounded-[20px] gap-[17px] flex flex-col pt-[25px] items-center", inView ? "animate-card-in" : "animate-fadeout")}>
               <p className=" capitalize font-[600] text-[15px] leading-[22.5px] text-[#263238] text-center w-[192.53px] h-[25%] md:px-0 px-[5px] ">
                 <span className="font-[400] text-[12px] text-[#000000]" >{element.text1}</span> <br />
                 {element.text2}
