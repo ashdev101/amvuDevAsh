@@ -5,7 +5,7 @@ import H2 from "./components/H2";
 const Statistics = () => {
   return (
 
-    <Animator animation={ZoomOut(1, 0)}>
+    <Animator animation={ZoomOut(1, -2)}>
       <div className="w-full">
         <H2 text="Statistics" />
         <div
