@@ -1,16 +1,19 @@
+import { useInView } from "react-intersection-observer"
 import "../../styles/home-styles/whatMakesIUsDifferent.css"
 import { ourBenefits } from "../../utils/home-utils/homeUtils"
 import { Check, DashboardWithPhone, IllusBG, User } from "../../utils/home-utils/images"
+import clsx from "clsx"
+import H2 from "./components/H2"
 const WhatMakesUsDifferent = () => {
+    const { ref: rightRef, inView: rightInView } = useInView()
+    const { ref: leftRef, inView: leftInView } = useInView()
     return (
         <div className="w-full 2xl:mt-[20px] xl:mt-[400px] lg:mt-[450px] md:mt-[430px] sm:mt-[400px] mt-[530px]">
-            <h2 className="all-home-components-heading-h1">What Makes Us Different</h2>
-
-
+            <H2 text="What Makes Us Different" />
             <div className="w-full h-full flex justify-center items-center">
 
                 {/* left side content */}
-                <div className="2xl:w-[50%] xl:w-[62%] lg:w-[77%] md:w-[82%] w-full flex flex-col  2xl:items-center  items-center">
+                <div className={clsx("2xl:w-[50%] xl:w-[62%] lg:w-[77%] md:w-[82%] w-full flex flex-col  2xl:items-center  items-center", leftInView ? "animate-fadein" : "animate-fadeout")} ref={leftRef}>
                     <h3 className="what-makes-us-different-h3">
                         Experience the all in one portal for all your needs like
                     </h3>
@@ -35,11 +38,11 @@ const WhatMakesUsDifferent = () => {
                 </div>
 
                 {/* Right side content */}
-                <div className="lg:w-[50%] h-[550px] lg:flex hidden">
+                <div className={"lg:w-[50%] h-[550px] lg:flex hidden"}>
                     <div className="2xl:w-[689px] w-full 2xl:h-[619px] h-full m-auto relative">
                         <img src={IllusBG} alt="" className="rotate 2xl:w-[549.37px] xl:w-[450px] lg:w-[300px] md:w-[320px] 2xl:h-[551.72px] xl:h-[450px] lg:h-[300px] md:h-[320px] absolute xl:top-[10%] lg:top-[20%] xl:left-[30px] left-[-10px] z-10" />
-                        <div className="2xl:w-[623px] xl:w-[500px] lg:w-[350px] h-[353px] absolute xl:top-[25%] lg:top-[16%] 2xl:left-[10px] xl:left-[-18px] md:left-[-40px]  z-30 flex justify-center items-center">
-                            <div className="flex h-full w-full relative justify-between items-center">
+                        <div className="2xl:w-[623px] xl:w-[500px] lg:w-[350px] h-[353px] absolute xl:top-[25%] lg:top-[16%] 2xl:left-[10px] xl:left-[-18px] md:left-[-40px]  z-30 flex justify-center items-center" ref={rightRef}>
+                            <div className={clsx("flex h-full w-full relative justify-between items-center", rightInView ? "spin-in-view" : "animate-fadeout")}>
                                 <img src={User} alt="" className="2xl:w-[141px] xl:w-[120px] lg:w-[100px] 2xl:h-[339px] h-[300px] z-20" />
                                 <img src={DashboardWithPhone} alt="" className="2xl:w-[550px] xl:w-[500px] 2xl:h-[400px] xl:h-[350px] absolute left-[12%] z-10 " />
                             </div>
@@ -48,7 +51,7 @@ const WhatMakesUsDifferent = () => {
                 </div>
 
             </div>
-        </div>
+        </div >
     )
 }
 

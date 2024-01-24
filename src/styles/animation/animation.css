@@ -95,3 +95,17 @@
     transform: translateY(0px) scale(1);
   }
 }
+
+.spin-in-view {
+  animation: spinInView 0.7s linear;
+}
+@keyframes spinInView {
+  0% {
+    transform: rotate(0deg) scale(0.3);
+    opacity: 0;
+  }
+  100% {
+    transform: rotate(360deg) scale(1);
+    opacity: 1;
+  }
+}
