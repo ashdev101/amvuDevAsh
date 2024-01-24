@@ -1,17 +1,18 @@
+import { useInView } from "react-intersection-observer";
 import "../../styles/home-styles/heading.css";
 import { socialMediaLinks } from "../../utils/home-utils/homeUtils";
 import { AmbuviansImage, IllusBG } from "../../utils/home-utils/images";
+import clsx from "clsx";
 
 const Heading = () => {
-
+  const { ref, inView } = useInView()
 
   return (
-    <div className="flex relative xl:h-[700px] lg:h-[600px] md:h-[500px] sm:h-[380px] h-[320px]">
+    <div className="flex relative xl:h-[700px] lg:h-[600px] md:h-[500px] sm:h-[380px] h-[320px]" ref={ref}>
       {/* Heading and paragraph div - Left Side Content */}
 
-
       <div className="w-[50%] flex items-start flex-col relative">
-        <div className="animate-in">
+        <div className={clsx(inView ? "animate-in" : "animate-fadeout")} >
 
           <h1 className="heading-H1">
             Ambuvians <br />
@@ -29,7 +30,7 @@ const Heading = () => {
         </div>
         {/* Social Links Div */}
         <div
-          className="heading-social-links-div animate-in">
+          className={clsx("heading-social-links-div", inView ? "animate-in" : "animate-fadeout")}>
           {socialMediaLinks &&
             socialMediaLinks.map((sociallink, index) => (
               <a
@@ -44,12 +45,11 @@ const Heading = () => {
         </div>
       </div>
 
-
       {/* Ambuvians Image Div - Right Side Content */}
       <div>
         <img src={IllusBG} alt="" className="rotate 2xl:w-[619px] xl:w-[550px] lg:w-[430px] xl:top-[20px] lg:top-[30px] absolute lg:flex hidden top-0 2xl:left-[760px] xl:left-[650px] lg:left-[580px] -z-0" />
         <div className="heading-ambuvians-image-div">
-          <img src={AmbuviansImage} alt="Ambuvians Image" className="heading-ambuvians-image zoom-in" />
+          <img src={AmbuviansImage} alt="Ambuvians Image" className={clsx("heading-ambuvians-image", inView ? "zoom-in" : "animate-fadeout")} />
         </div>
       </div>
     </div>

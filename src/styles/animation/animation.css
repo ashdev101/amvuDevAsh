@@ -1,11 +1,13 @@
 .animate-in {
-  animation: animationIn 0.5s linear;
+  animation: animationIn 0.7s linear;
 }
 @keyframes animationIn {
   0% {
+    opacity: 0;
     transform: translateY(-300px);
   }
   100% {
+    opacity: 1;
     transform: translateY(00px);
   }
 }
@@ -55,7 +57,7 @@
  
 
 .zoom-in {
-  animation: zoomIn 1s linear;
+  animation: zoomIn 0.7s linear;
 }
 @keyframes zoomIn {
   0% {
