@@ -1,4 +1,6 @@
+import clsx from "clsx";
 import React from "react";
+import { useInView } from "react-intersection-observer";
 interface MentorCardType {
     image: string;
     name: string;
@@ -11,8 +13,9 @@ interface MentorCardType {
     }[]
 }
 const MentorCard: React.FC<MentorCardType> = ({ image, name, experience, about, socialMediaLinks }) => {
+    const { ref, inView } = useInView()
     return (
-        <div className="mentors-card">
+        <div className={clsx("mentors-card", inView ? "animate-card-in" : "animate-fadeout")} ref={ref}>
             <img src={image} alt="" className="lg:w-[160px] md:w-[140px] w-[100px] lg:h-[160px] md:h-[140px] h-[100px] mt-[4%] object-cover  rounded-full" />
             <h2 className="w-[342px] mt-[10px] font-[500] lg:text-[30px] md:text-[28px] sm:text-[20px] text-[15px] text-center">{name}</h2>
             <p className="text-center text-[#84829A] font-[500] lg:text-[15px] md:text-[13px] sm:text-[10px] text-[8px] lg:mt-[15px] mt-[15px]">{experience}</p>
@@ -28,6 +31,6 @@ const MentorCard: React.FC<MentorCardType> = ({ image, name, experience, about, 
             </div>
         </div>
     )
-} 
+}
 
 export default MentorCard

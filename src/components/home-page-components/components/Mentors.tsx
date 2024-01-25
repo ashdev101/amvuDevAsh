@@ -1,10 +1,12 @@
-import { ourMentors } from "../../../utils/home-utils/homeUtils"
-import MentorCard from "./MentorCard"
 import "../../../styles/home-styles/mentors.css"
+import { ourMentors } from "../../../utils/home-utils/homeUtils"
+import H2 from "./H2"
+import MentorCard from "./MentorCard"
 const Mentors = () => {
+  
     return (
         <div className="relative flex flex-col">
-            <h1 className="all-home-components-heading-h1">Our Mentors</h1>
+            <H2 text="Our Mentors" />
 
             <div className="mentors-card-container">
                 {
