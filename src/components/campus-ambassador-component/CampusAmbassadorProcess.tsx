@@ -1,15 +1,19 @@
+import { useInView } from "react-intersection-observer";
 import "../../styles/campus-ambassador-styles/campusAmbassadorProcess.css"
 import { ApplicationDate, Process } from "../../utils/campus-utils/campusUtils"
+import H2Campus from "./components/H2-Campus";
 import ProcessCard from "./components/ProcessCard"
 import { format } from "date-fns";
+import clsx from "clsx";
 
 const CampusAmbassadorProcess = () => {
+    const { ref, inView } = useInView()
     return (
         <div className='mt-[30px]'>
-            <h2 className='campus-all-headings'>Process</h2>
+            <H2Campus text="Process" />
 
             <div className="process-card-container">
-                <div className="process-card">
+                <div className={clsx("process-card", inView ? "animate-card-in" : "animate-fadeout")} ref={ref}>
                     <p className="font-[700] text-[#1B2534] 2xl:text-[20px] xl:text-[19px] lg:text-[18px] md:text-[16px] sm:text-[14px] text-[12px]">Application Date</p>
                     {
                         ApplicationDate && ApplicationDate.map((date, index) => (
