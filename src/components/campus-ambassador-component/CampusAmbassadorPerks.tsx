@@ -1,13 +1,12 @@
 import "../../styles/campus-ambassador-styles/campusAmbassadorPerks.css"
 import { Perks } from "../../utils/campus-utils/campusUtils"
+import H2Campus from "./components/H2-Campus";
 import PerksCard from "./components/PerksCard";
 
 const CampusAmbassadorPerks = () => {
     return (
         <div className='mt-[30px]'>
-            <h2 className='campus-all-headings'>
-                Perks
-            </h2>
+            <H2Campus text="Perks" />
             <div className="perks-card-container">
                 {
                     Perks.length && Perks.map((perk, index) => (
