@@ -26,7 +26,7 @@ const BottomImage =
   "https://res.cloudinary.com/dvkfio4zq/image/upload/v1705812916/upload/ambuvians/bdymk893dta8rmihocn1.png";
 
 const ServicesTopImage =
-  "https://res.cloudinary.com/dvkfio4zq/image/upload/v1706185935/upload/ambuvians/kg3qcztyhmyyro0g0qje.svg";
+  "https://res.cloudinary.com/dvkfio4zq/image/upload/v1706187564/upload/ambuvians/gvbsnwo9h2q7vnn9fbf7.png";
 
 const StatisticsBg1 =
   "https://res.cloudinary.com/dvkfio4zq/image/upload/v1705724804/upload/ambuvians/zgkxcpkwm9jnzvlx5cbh.jpg";
