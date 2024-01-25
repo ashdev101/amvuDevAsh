@@ -1,12 +1,13 @@
+import clsx from "clsx";
 import { useInView } from "react-intersection-observer";
 import "../../styles/services-page-styles/servicesTop.css";
-import clsx from "clsx";
+import { ServicesTopImage } from "../../utils/services-utils/images";
 
 const ServicesTop = () => {
   const { ref, inView } = useInView()
   return (
     <div className={clsx("services-top-container", inView ? "animate-fadeup" : "animate-fadeout")} ref={ref}>
-      <h2 className="services-top-h2">Services</h2>
+      {/*    <h2 className="services-top-h2">Services</h2> */}
 
       {/* side  gray wave rectangle svg  */}
       <svg xmlns="http://www.w3.org/2000/svg" width="353" height="932" viewBox="0 0 353 932" fill="none" className=" absolute right-0 h-full z-0 md:w-[20%] w-[34%]">
@@ -28,6 +29,8 @@ const ServicesTop = () => {
         className="absolute 2xl:bottom-[-50px] xl:bottom-[-60px] md:bottom-[-75px] sm:bottom-[-85px] bottom-[-105px] h-[250px] bg-inherit w-full">
         <path d="M-191.488 2.51719C-191.488 2.51719 -40.4712 171.276 180.691 171.276C401.854 171.276 469.713 -18.0369 717.821 2.36635C965.93 22.7696 1096.12 127.535 1310.56 143.257C1727.64 173.835 2021.45 71.6504 2021.45 71.6504L1909.31 263.015L-256.758 212.31L-191.488 2.51719Z" fill="white" fillOpacity="0.21" />
       </svg>
+
+      <img src={ServicesTopImage} alt="services" className="w-[100%] h-[100%] absolute rigth-0 top-0 object-cover z-0" />
     </div>
   )
 }

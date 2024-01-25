@@ -1,8 +1,8 @@
 .services-top-h2 {
   text-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
-  @apply uppercase font-[900] xl:text-[96px] lg:text-[90px] md:text-[80px] sm:text-[70px] text-[45px] absolute top-[13%] left-[10%] text-white shadow-slate-700;
+  @apply uppercase font-[900] xl:text-[96px] lg:text-[90px] md:text-[80px] sm:text-[70px] text-[45px] absolute bottom-[30%] left-[5%] text-white shadow-slate-700 z-10;
 }
 .services-top-container {
   background: linear-gradient(to bottom right, #ffc5c8, #ed2c1f);
-  @apply w-full xl:h-[650px] lg:h-[500px] md:h-[400px] sm:h-[370px] h-[270px] relative mb-[30px];
+  @apply w-full xl:h-[900px] lg:h-[700px] md:h-[480px] sm:h-[370px] h-[270px] relative mb-[30px];
 }

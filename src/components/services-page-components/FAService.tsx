@@ -9,7 +9,7 @@ const FAService = () => {
     const { ref: rightRef, inView: rightInView } = useInView()
     const { ref: leftRef, inView: leftInView } = useInView()
     return (
-        <div className=" flex flex-col gap-[10px] lg:mt-[200px] mt-[50px]">
+        <div className=" flex flex-col gap-[10px] lg:mt-[200px] mt-[50px] z-100">
             {/*   Fastest Ambulance Service */}
             <div className="flex">
                 {/* Left Side Content */}

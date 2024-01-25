@@ -25,6 +25,9 @@ const ScreenWithFrame =
 const BottomImage =
   "https://res.cloudinary.com/dvkfio4zq/image/upload/v1705812916/upload/ambuvians/bdymk893dta8rmihocn1.png";
 
+const ServicesTopImage =
+  "https://res.cloudinary.com/dvkfio4zq/image/upload/v1706181362/upload/ambuvians/i1upqkzvrrwfgc7t8uu0.svg";
+
 const StatisticsBg1 =
   "https://res.cloudinary.com/dvkfio4zq/image/upload/v1705724804/upload/ambuvians/zgkxcpkwm9jnzvlx5cbh.jpg";
 
@@ -43,4 +46,5 @@ export {
   StatisticsBg1,
   StatisticsBg2,
   CallUsIconGreen,
+  ServicesTopImage
 };
