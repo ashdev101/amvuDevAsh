@@ -183,3 +183,18 @@
     opacity: 1;
   }
 }
+
+.animate-fadein-image {
+  animation: animateFadeinImage 0.7s linear;
+}
+
+@keyframes animateFadeinImage {
+  0% {
+    transform: translateY(10px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
