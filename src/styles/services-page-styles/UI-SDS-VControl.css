@@ -1,6 +1,6 @@
 .UI-SDS-VControl-Box {
   box-shadow: 2px 2px 19px rgba(0, 0, 0, 0.186);
-  @apply md:rounded-[40px] rounded-[20px] bg-white w-full 2xl:h-[1026px] xl:h-[980px] lg:h-[940px] md:h-[900px] sm:h-[760px] md:pb-0 pb-[20px] flex justify-between sm:flex-row flex-col;
+  @apply md:rounded-[40px] rounded-[20px] bg-white w-full 2xl:h-[1026px] xl:h-[980px] lg:h-[940px] md:h-[900px] sm:h-[780px] md:pb-0 pb-[20px] flex justify-between sm:flex-row flex-col;
 }
 
 
