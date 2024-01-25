@@ -1,11 +1,15 @@
+import { useInView } from "react-intersection-observer"
 import "../../styles/about-styles/ourMission.css"
 import { Ambulance, BulbWithTwoPersonIcons, BusinessPresentation, FastCharging, Hospital, Meeting, Patient } from "../../utils/about-utils/images"
 import { DoctorIcon } from "../../utils/home-utils/images"
+import clsx from "clsx"
 const OurMission = () => {
+    const { ref: rightRef, inView: rightInView } = useInView()
+    const { ref: leftRef, inView: leftInView } = useInView()
     return (
         <div className="flex mt-[50px]" >
 
-            <div className="flex-1 md:flex hidden justify-center items-center">
+            <div className={clsx("flex-1 md:flex hidden justify-center items-center", leftInView ? "zoom-in" : "animate-fadeout")} ref={leftRef}>
 
                 {/* Ellipse Ring 01 > Ellipse Ring 02 > Ellispe Ring 03 */}
                 {/* Ellispe Ring First */}
@@ -51,12 +55,10 @@ const OurMission = () => {
                         </div>
                     </div>
                 </div>
-
-
             </div>
 
             {/* Our Mission */}
-            <div className="flex-1 flex flex-col justify-center md:items-start items-center 2xl:pl-[100px] xl:pl-[100px] lg:pl-[40px] md:pl-0">
+            <div className={clsx("flex-1 flex flex-col justify-center md:items-start items-center 2xl:pl-[100px] xl:pl-[100px] lg:pl-[40px] md:pl-0", rightInView ? "animate-fadein" : "animate-fadeout")} ref={rightRef}>
                 <h3 className="xl:text-[38px] lg:text-[28px] md:text-[25px] sm:text-[20px] text-[15px] text-[#6B6868] font-[600]">
                     Our Mission
                 </h3>
