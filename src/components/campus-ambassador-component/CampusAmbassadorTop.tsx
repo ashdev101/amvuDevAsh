@@ -8,7 +8,7 @@ const CampusAmbassadorTop = () => {
                 {/*          <img src={RectangleCorner01} className=" absolute top-0 left-0 mix-blend-screen w-[50%]" /> */}
                 <h2 className="campus-top-h2">Campus Ambassador</h2>
                 <p className="campus-top-para-blue">Be the Face of Your Campus</p>
-                <div className="marquee">
+                <div className="campus-marquee">
                     <p className="campus-top-para-red">
                         On the canvas of campus, paint stories untold,
                         Be an ambassador, let your spirit unfold.
