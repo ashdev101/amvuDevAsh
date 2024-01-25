@@ -1,9 +1,12 @@
+import { useInView } from "react-intersection-observer";
 import "../../styles/campus-ambassador-styles/campusAmbassadorTop.css"
 import { JoinUsDashboard, Widget01, Widget02 } from "../../utils/campus-utils/images";
+import clsx from "clsx";
 
 const CampusAmbassadorTop = () => {
+    const { ref, inView } = useInView()
     return (
-        <div className="2xl:h-[830px] xl:h-[820px] lg:h-[780px] md:h-[720px] sm:h-[580px] h-[500px]">
+        <div className={clsx("2xl:h-[830px] xl:h-[820px] lg:h-[780px] md:h-[720px] sm:h-[580px] h-[500px]", inView ? "animate-fadeup" : "animate-fadeout")} ref={ref}>
             <div className="campus-main-container">
                 {/*          <img src={RectangleCorner01} className=" absolute top-0 left-0 mix-blend-screen w-[50%]" /> */}
                 <h2 className="campus-top-h2">Campus Ambassador</h2>
