@@ -1,5 +1,5 @@
 import React from 'react';
-import { CiLinkedin, CiTwitter } from "react-icons/ci";
+import { CiLinkedin } from "react-icons/ci";
 
 import { MdOutlineMailOutline } from "react-icons/md";
 import "../../../styles/about-styles/teamCard.css";
@@ -12,12 +12,11 @@ interface TeamCardProps {
     name: string,
     title: string,
     about: string,
-    twitter?: string,
     linkedin?: string,
     mail?: string
 }
 
-const TeamCard: React.FC<TeamCardProps> = ({ image, imageFrame = ImageFrame01, name, title, about, twitter = "", mail = "", linkedin = "" }) => {
+const TeamCard: React.FC<TeamCardProps> = ({ image, imageFrame = ImageFrame01, name, title, about, mail = "", linkedin = "" }) => {
     return (
         <div className="team-card">
             <div className="w-[60%] h-[50%] relative">
@@ -34,11 +33,9 @@ const TeamCard: React.FC<TeamCardProps> = ({ image, imageFrame = ImageFrame01, n
                 {about}
             </p>
             <div className="team-member-social-div" >
-                <a href={twitter} className="team-member-social-link"><CiTwitter /></a>
                 <a href={linkedin} className="team-member-social-link"><CiLinkedin /></a>
                 <a href={mail} className="team-member-social-link"><MdOutlineMailOutline /></a>
             </div>
-
         </div>
     )
 }

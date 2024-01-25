@@ -21,14 +21,14 @@ const MeetOurTeam = () => {
             <div className="flex flex-col justify-center items-center mt-[20px]">
                 {/* First Member */}
                 {
-                    <TeamCard image={firstMember.image} imageFrame={firstMember.imageFrame && firstMember.imageFrame} name={firstMember.name} title={firstMember.title} about={firstMember.about} linkedin={firstMember.linkedin && firstMember.linkedin} twitter={firstMember.twitter && firstMember.twitter} mail={firstMember.twitter && firstMember.twitter} />
+                    <TeamCard image={firstMember.image} imageFrame={firstMember.imageFrame && firstMember.imageFrame} name={firstMember.name} title={firstMember.title} about={firstMember.about} linkedin={firstMember.linkedin && firstMember.linkedin} mail={firstMember.mail && firstMember.mail} />
                 }
 
                 {/* Rest Members */}
                 <div className="team-card-container">
                     {
                         resMembers.length && resMembers.map((member, index) => (
-                            <TeamCard key={index} image={member.image} imageFrame={member.imageFrame && member.imageFrame} name={member.name} title={member.title} about={member.about} linkedin={member.linkedin && member.linkedin} twitter={member.twitter && member.twitter} mail={member.twitter && member.twitter} />
+                            <TeamCard key={index} image={member.image} imageFrame={member.imageFrame && member.imageFrame} name={member.name} title={member.title} about={member.about} linkedin={member.linkedin && member.linkedin} mail={member.mail && member.mail} />
                         ))
                     }
                 </div>
