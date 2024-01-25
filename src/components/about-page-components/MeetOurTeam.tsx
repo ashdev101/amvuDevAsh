@@ -1,16 +1,19 @@
+import { useInView } from "react-intersection-observer";
 import "../../styles/about-styles/meetOutTeam.css"
 import { OurTeam } from "../../utils/about-utils/aboutUtils"
 import TeamCard from "./components/TeamCard";
+import clsx from "clsx";
 
 const MeetOurTeam = () => {
 
+    const { ref: headingRef, inView: headingInView } = useInView()
     const firstMember = OurTeam[0]
     const resMembers = OurTeam.filter((member: any) => member !== OurTeam[0])
 
     return (
         <div className="md:mt-[30px] mt-[50px]">
             {/* Heading */}
-            <div className="flex flex-col justify-center items-center">
+            <div className={clsx("flex flex-col justify-center items-center", headingInView ? "h1-in" : "animate-fadeout")} ref={headingRef}>
                 <span className="uppercase xl:text-[16px] md:text-[14px] sm:text-[13px] text-[12px] font-[600]">Who We Are</span>
                 <h2 className="xl:text-[64px] lg:text-[55px] md:text-[50px] sm:text-[40px] text-[30px] text-[#282828] font-[600]">
                     Meet Our Team
