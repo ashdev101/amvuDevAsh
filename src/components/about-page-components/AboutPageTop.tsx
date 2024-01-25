@@ -1,8 +1,11 @@
+import { useInView } from "react-intersection-observer"
 import "../../styles/about-styles/aboutPageTop.css"
 import { AboutUsTopImage, AtKIET, MessageBox, MessageProfile, Progress90Per, Star } from "../../utils/about-utils/images"
+import clsx from "clsx"
 const AboutPageTop = () => {
+    const { ref, inView } = useInView()
     return (
-        <div className="w-full flex justify-center items-center mt-[2%] relative">
+        <div className={clsx("w-full flex justify-center items-center mt-[2%] relative", inView ? "zoom-in" : "animate-fadeout")} ref={ref}>
             <img src={AboutUsTopImage} className="2xl:w-[100%] w-[90%]" />
             <div className="discover-more">
                 Discover More
@@ -47,8 +50,6 @@ const AboutPageTop = () => {
                     </div>
                 </div>
             </div>
-
-
         </div>
     )
 }
