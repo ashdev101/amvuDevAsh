@@ -1,11 +1,15 @@
+import { useInView } from "react-intersection-observer"
 import "../../styles/services-page-styles/SUFStorage.css"
 import { Mobile } from "../../utils/services-utils/images"
+import clsx from "clsx"
 const SUFStorage = () => {
+    const { ref: rightRef, inView: rightInView } = useInView()
+    const { ref: leftRef, inView: leftInView } = useInView()
     return (
         <div className="md:mt-[100px] mt-[40px] flex md:flex-row justify-center items-center flex-col-reverse">
 
             {/* Left Side Content */}
-            <div className="SUFStorage-left-container">
+            <div className={clsx("SUFStorage-left-container", leftInView ? "animate-fadein" : "animate-fadeout")} ref={leftRef}>
                 <h2 className="SUFStorage-left-container-h2">
                     Secure, User-Friendly <span className="text-[#FD0808]">Storage</span>
                 </h2>
@@ -15,7 +19,7 @@ const SUFStorage = () => {
             </div>
 
             {/* Right Side Image */}
-            <div className="SUFStorage-right-container ">
+            <div className={clsx("SUFStorage-right-container", rightInView ? "zoom-in" : "animate-fadeout")} ref={rightRef}>
                 <img src={Mobile} alt="Mobile" className="lg:h-[95%] md:h-[100%] h-[90%] absolute bottom-[-5px] xl:left-[1%] lg:left-[5%] md:left-[0] sm:left-[3%] left-[5%] z-10" />
 
                 <svg xmlns="http://www.w3.org/2000/svg" width="393" height="632" viewBox="0 0 393 632" fill="none" className=" absolute 2xl:right-[23%] xl:right-[7%] right-[0] top-0 h-[90%] 2xl:w-[50%] w-fit z-0">
