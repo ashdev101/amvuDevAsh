@@ -61,6 +61,20 @@
     opacity: 1;
   }
 }
+.animate-fadedown {
+  animation: animateFadeDown 0.7s linear;
+}
+
+@keyframes animateFadeDown {
+  0% {
+    transform: translateY(200px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
 
 .animate-fadeout {
   opacity: 0;
