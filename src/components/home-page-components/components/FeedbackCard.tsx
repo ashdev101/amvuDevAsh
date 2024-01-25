@@ -1,6 +1,8 @@
 import React from 'react'
 import StarRatings from "react-star-ratings"
 import { Customer } from '../../../utils/home-utils/images';
+import { useInView } from 'react-intersection-observer';
+import clsx from 'clsx';
 
 interface FeedbackCardType {
     image?: string;
@@ -11,8 +13,9 @@ interface FeedbackCardType {
 
 
 const FeedbackCard: React.FC<FeedbackCardType> = ({ image, name, comment, rating }) => {
+    const { ref, inView } = useInView()
     return (
-        <div className="feedback-card flex flex-col items-center">
+        <div className={clsx("feedback-card flex flex-col items-center", inView ? "animate-card-in" : "animate-fadeout")} ref={ref}>
             <img src={image ? image : Customer} alt="" className="md:w-[149px] w-[100px] md:h-[149px] h-[100px] rounded-full" />
             <p className="capitalize text-center w-[255px] h-[100px] text-[#84829A] font-[500] md:text-[16px] text-[13px] mt-[30px] leading-[26px] overflow-auto hideScrollbar">
                 {comment}
