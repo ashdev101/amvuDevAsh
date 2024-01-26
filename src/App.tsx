@@ -34,30 +34,38 @@ function App() {
     };
   }, [])
 
+  const NavFooter = ({ children }: { children: React.ReactElement }) => {
+    return <>
+      <Navbar />
+      {children}
+      <Footer />
+    </>
+  }
+
   return (
     <>
       <BrowserRouter>
         <div className="progress-bar" style={{ width: `${scrollPercentage}%` }} />
-        <Navbar />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/campus-ambassador" element={<CampusAmbassador />} />
-          <Route path="/join-us" element={<Carrers />} />
-          <Route path="/contact-us" element={<Contact />} />
-          <Route path="/services" element={<ServicesPage />} />
-          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
-          <Route path="/terms-and-conditions" element={<TermsAndCondition />} />
-          <Route path="/grievance-redressal-policy" element={<GrievanceRedressalPolicy />} />
-          <Route path="/refund-policy" element={<RefundPolicy />} />
+          {/* Pages with Navbar and footer */}
+          <Route path="/" element={<NavFooter children={<Home />} />} />
+          <Route path="/about" element={<NavFooter children={<About />} />} />
+          <Route path="/campus-ambassador" element={<NavFooter children={<CampusAmbassador />} />} />
+          <Route path="/join-us" element={<NavFooter children={<Carrers />} />} />
+          <Route path="/contact-us" element={<NavFooter children={<Contact />} />} />
+          <Route path="/services" element={<NavFooter children={<ServicesPage />} />} />
+          <Route path="/privacy-policy" element={<NavFooter children={<PrivacyPolicy />} />} />
+          <Route path="/terms-and-conditions" element={<NavFooter children={<TermsAndCondition />} />} />
+          <Route path="/grievance-redressal-policy" element={<NavFooter children={<GrievanceRedressalPolicy />} />} />
+          <Route path="/refund-policy" element={<NavFooter children={<RefundPolicy />} />} />
+
+          {/* Pages Without Navbar and Footer */}
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/donate-us" element={<Donation />} />
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Register />} />
           <Route path="/survey" element={<Survey />} />
         </Routes>
-        <Footer />
-
       </BrowserRouter>
     </>
   )

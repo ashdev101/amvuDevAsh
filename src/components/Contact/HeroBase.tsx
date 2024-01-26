@@ -1,4 +1,3 @@
-import React from 'react'
 import HamburgerMenu from '../Common/Hamburger'
 
 type Props = {
